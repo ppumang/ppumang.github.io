@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 ---
 
 <!doctype html>
@@ -39,3 +40,22 @@
 
   </body>
 </html>
+=======
+layout: default
+title: Home
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+  </body>
+</html>
+>>>>>>> b133e95b16f70a6f99f1bac667cb99e360b790d5
