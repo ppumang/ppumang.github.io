@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "ppumang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**entrepreneur** <br/> **Full stack developer** <br/> **blockchain developer**"
+  avatar           : "/assets/images/gaori.png"
+  bio              : "**Full stack developer** <br/> **blockchain developer**"
   location         : "South Korea"
   email            :
   links:
