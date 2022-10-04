@@ -1,21 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-10-04T21:57:59+09:00</updated><id>/feed.xml</id><entry><title type="html">Kiwifruit</title><link href="/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00+09:00</published><updated>2018-08-22T00:00:00+09:00</updated><id>/2018/08/22/kiwifruit</id><content type="html" xml:base="/2018/08/22/kiwifruit.html"><![CDATA[<p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-04T23:21:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Site Title</title><subtitle>An amazing website.</subtitle><author><name>Your Name</name></author><entry><title type="html">Markdown</title><link href="http://localhost:4000/markdown/" rel="alternate" type="text/html" title="Markdown" /><published>2022-10-04T00:00:00+09:00</published><updated>2022-10-04T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/markdown/"><![CDATA[<h1 id="this-is-an-h1">This is an H1</h1>
+
+<h2 id="this-is-an-h2">This is an H2</h2>
+
+<h1 id="this-is-a-h1">This is a H1</h1>
+<h2 id="this-is-a-h2">This is a H2</h2>
+<h3 id="this-is-a-h3">This is a H3</h3>
+<h4 id="this-is-a-h4">This is a H4</h4>
+<h5 id="this-is-a-h5">This is a H5</h5>
+<h6 id="this-is-a-h6">This is a H6</h6>
+
+<blockquote>
+  <p>This is a first blockqute.
+<!-- >	> This is a second blockqute.
+	>	> This is a third blockqute. --></p>
+</blockquote>
+
+<ol>
+  <li>첫번째</li>
+  <li>두번째</li>
+  <li>세번째</li>
+</ol>
+
+<ul>
+  <li>빨강
+    <ul>
+      <li>녹색
+        <ul>
+          <li>파랑</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>빨강
+    <ul>
+      <li>녹색
+        <ul>
+          <li>파랑</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>빨강
+    <ul>
+      <li>녹색
+        <ul>
+          <li>파랑</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>1단계
+    <ul>
+      <li>2단계
+        <ul>
+          <li>3단계
+            <ul>
+              <li>4단계</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>hello
+    <ul>
+      <li>hello
+        <ul>
+          <li>hello</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>This is a normal paragraph:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a code block.
+</code></pre></div></div>
+
+<p>end code block.</p>
+
+<pre>
+<code>
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+
+}
+</code>
+</pre>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+</code></pre></div></div>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">BootSpringBootApplication</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello, Honeymon"</span><span class="o">);</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<p><a href="URL" title="Optional Title here">link keyword</a></p>
+
+<p>Link: <a href="https://google.com" title="Go google">Google</a></p>
+
+<ul>
+  <li>외부링크: <a href="http://example.com/">http://example.com/</a></li>
+  <li>이메일링크: <a href="mailto:address@example.com">address@example.com</a></li>
+</ul>
+
+<p><em>single asterisks</em></p>
+
+<p><em>single underscores</em></p>
+
+<p><strong>double asterisks</strong></p>
+
+<p><strong>double underscores</strong></p>
+
+<p><del>cancelline</del></p>
+
+<p><img src="/assets/images/asdf.png" alt="Alt text" /></p>
+
+<p><img src="../assets/images/asdf.png" height="300px" title="px(픽셀) 크기 설정" alt="gaori" /><br /></p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[This is an H1]]></summary></entry><entry><title type="html">Kiwifruit</title><link href="http://localhost:4000/kiwifruit/" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00+09:00</published><updated>2018-08-22T00:00:00+09:00</updated><id>http://localhost:4000/kiwifruit</id><content type="html" xml:base="http://localhost:4000/kiwifruit/"><![CDATA[<p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
 berry of several species of woody vines in the genus Actinidia.</p>
 
 <p>The most common cultivar group of kiwifruit is oval, about the size of a large
 hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
 diameter). It has a fibrous, dull greenish-brown skin and bright green or
 golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-texture, with a sweet and unique flavor.</p>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.]]></summary></entry><entry><title type="html">Apples</title><link href="/2018/08/21/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+09:00</published><updated>2018-08-21T00:00:00+09:00</updated><id>/2018/08/21/apples</id><content type="html" xml:base="/2018/08/21/apples.html"><![CDATA[<p>An apple is a sweet, edible fruit produced by an apple tree.</p>
+texture, with a sweet and unique flavor.</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.]]></summary></entry><entry><title type="html">Apples</title><link href="http://localhost:4000/apples/" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+09:00</published><updated>2018-08-21T00:00:00+09:00</updated><id>http://localhost:4000/apples</id><content type="html" xml:base="http://localhost:4000/apples/"><![CDATA[<p>An apple is a sweet, edible fruit produced by an apple tree.</p>
 
 <p>Apple trees are cultivated worldwide, and are the most widely grown species in
 the genus Malus. The tree originated in Central Asia, where its wild ancestor,
 Malus sieversii, is still found today. Apples have been grown for thousands of
 years in Asia and Europe, and were brought to North America by European
-colonists.</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[An apple is a sweet, edible fruit produced by an apple tree.]]></summary></entry><entry><title type="html">Bananas</title><link href="/2018/08/20/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2018-08-20T00:00:00+09:00</published><updated>2018-08-20T00:00:00+09:00</updated><id>/2018/08/20/bananas</id><content type="html" xml:base="/2018/08/20/bananas.html"><![CDATA[<p>A banana is an edible fruit – botanically a berry – produced by several kinds
+colonists.</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[An apple is a sweet, edible fruit produced by an apple tree.]]></summary></entry><entry><title type="html">Bananas</title><link href="http://localhost:4000/bananas/" rel="alternate" type="text/html" title="Bananas" /><published>2018-08-20T00:00:00+09:00</published><updated>2018-08-20T00:00:00+09:00</updated><id>http://localhost:4000/bananas</id><content type="html" xml:base="http://localhost:4000/bananas/"><![CDATA[<p>A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.</p>
 
 <p>In some countries, bananas used for cooking may be called “plantains”,
 distinguishing them from dessert bananas. The fruit is variable in size, color,
 and firmness, but is usually elongated and curved, with soft flesh rich in
 starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary></entry></feed>
+when ripe.</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary></entry></feed>
