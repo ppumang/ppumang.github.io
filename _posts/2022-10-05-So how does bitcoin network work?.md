@@ -5,7 +5,7 @@
 - Nodes are computers that are running bitcoin software
 - Each node( full node ) saves a copy of bitcoin transaction data
 - **"coin"** or **"balance"** does not exist in bitcoin
-- Instead, bitcoin saves transactions. With transaction data, bitcoin software can calculate **UTXO**( Unspent Transaction Output ) to prove how much bitcoins an address owns
+- Instead, bitcoin saves **transactions**. With transaction data, bitcoin software can calculate **UTXO**( Unspent Transaction Output ) to prove how much bitcoins an address owns
 - Each UTXO can only be spent by a specific user
 - Transfering a bitcoin from one address to another means to eventually generate a new transaction
 ```js
