@@ -1,27 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/markdown/</loc>
-<lastmod>2022-01-01T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/So-how-are-bicoin-wallets-made/</loc>
-<lastmod>2022-10-05T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/So-how-does-bitcoin-network-work/</loc>
-<lastmod>2022-10-05T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blog/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/staff/</loc>
-</url>
+  
+    <url>
+      <loc>http://localhost:4000/So-how-are-bicoin-wallets-made/</loc>
+      
+        <lastmod>2022-10-05T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/So-how-does-bitcoin-network-work/</loc>
+      
+        <lastmod>2022-10-04T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/markdown/</loc>
+      
+        <lastmod>2022-01-01T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
 </urlset>
