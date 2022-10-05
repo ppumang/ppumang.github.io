@@ -6,14 +6,21 @@ topic: bitcoin
 <img src="../assets/images/bitcoin_overview.png" />
 <figcaption>Bitcoin overview</figcaption>
 
-- Bitcoin network is maintained by nodes.
-- Just as the internet runs on http protocol, bitcoin nodes interact with each other on bitcoin protocol
-- Nodes are computers that are running bitcoin software
-- Each node( full node ) saves a copy of bitcoin transaction data
-- **"coin"** or **"balance"** does not exist in bitcoin
-- Instead, bitcoin saves **transactions**. With transaction data, bitcoin software can calculate **UTXO**( Unspent Transaction Output ) to prove how much bitcoins an address owns
-- Each UTXO can only be spent by a specific user
-- Transfering a bitcoin from one address to another means to eventually generate a new transaction
+Bitcoin network is maintained by nodes.
+
+Just as the internet runs on http protocol, bitcoin nodes interact with each other on bitcoin protocol.
+
+Nodes are computers that are running bitcoin software.
+
+Each node( full node ) saves a copy of bitcoin transaction data.
+
+**"coin"** or **"balance"** does not exist in bitcoin. Instead, bitcoin saves **transactions**. 
+
+With transaction data, bitcoin software can calculate **UTXO**( Unspent Transaction Output ) to prove how much bitcoins an address owns.
+
+Each UTXO can only be spent by a specific user.
+
+Transfering a bitcoin from one address to another means to eventually generate a new transaction.
 ```js
 // how a transaction data looks like
 {
@@ -40,10 +47,12 @@ topic: bitcoin
 }
 ```
 
-- <img src="../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori"/>
-  <figcaption>How UTXO set changes as transactions occur overtime</figcaption>
+<img src="../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori"/>
+<figcaption>How UTXO set changes as transactions occur overtime</figcaption>
 
-- This is a brief summary of what happens when person X transfers 300 bitcoins to person Y. 
+
+This is a brief summary of what happens when person X transfers 300 bitcoins to person Y. 
+
 1. Search through every transactions that exists ( since the genesis block )
 1. For each transaction, generate signature with X's private key and the transaction data. Combine this signature and X's public key to generate an unlocking script( scriptSig )
 1. Combine this unlocking script( scriptSig ) with the transaction's output's locking script( scriptPubKey ) to prove that X can spend that transaction's output
@@ -56,5 +65,5 @@ topic: bitcoin
 1. When mining nodes receive this transaction data, they add the data to their mempool( transaction pool )
 1. When a mining node includes the transaction to their candidate block's transactions list and wins the competition, the transaction is now recorded in bitcoin chain forever
 
-- This process seems inefficient with all the iterations
-- This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles
+This process seems inefficient with all the iterations.
+This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles.

@@ -5,42 +5,52 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2022 22:28:29 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2022 22:28:29 +0900</lastBuildDate>
+    <pubDate>Wed, 05 Oct 2022 22:59:57 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 22:59:57 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>What happens if two independent blocks are created at the same time?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Every nodes should reach a consensus and save same transactions, same blocks
-&lt;img src=&quot;../assets/images/fork_consensus.png&quot; /&gt;
-    &lt;figcaption&gt;A bitcoin network that reached consensus&lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;When mining bitcoin, if a mining block finds the correct nonce, it propagates a new block( block A ) to other nodes&lt;/li&gt;
-  &lt;li&gt;If a mining node receives a propagated block( block A ) before finding the nonce, it stops current POW and start POW of the block after the received block&lt;/li&gt;
-  &lt;li&gt;It takes time for a new block to propagate to every nodes. So, before it’s propagated to every node, another node that hasn’t received the new node might succeed in POW, and start propagating another new block( block B )
-&lt;img src=&quot;../assets/images/fork_conflict.png&quot; /&gt;
-    &lt;figcaption&gt;propagating to different blocks&lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;In this case, some nodes receives block A before block B, while some nodes receives block B before block A. When this happens, a bitcoin network is &lt;strong&gt;forked&lt;/strong&gt;.
-&lt;img src=&quot;../assets/images/fork_conflict2.png&quot; /&gt;
-    &lt;figcaption&gt;A forked bitcoin network &lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Which block should be selected? block A or block B?&lt;/li&gt;
-  &lt;li&gt;Mining nodes doesn’t care if the network is forked or not. They just keep mining the next node.&lt;/li&gt;
-  &lt;li&gt;Let’s say a mining node succeeded POW, made new block ( block C ) on top of block A, and propagated it to other nodes
-&lt;img src=&quot;../assets/images/fork_resolving.png&quot; /&gt;
-    &lt;figcaption&gt;Block C is mined and propagated&lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more &lt;strong&gt;credible&lt;/strong&gt; then the other. So the node chooses blockchain with block A, and fork is resolved.&lt;/li&gt;
-  &lt;li&gt;Conventionally, if a network is forked, a node chooses the longest one
-&lt;img src=&quot;../assets/images/fork_resolved.png&quot; /&gt;
-    &lt;figcaption&gt;Fork resolved&lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Although blockchain with block B is one height shorter then block A, it still has chance to become longer then blockchain with block A&lt;/li&gt;
-  &lt;li&gt;It’s a common sense that if block height differs more than 5 blocks, it’s almost impossible for defeated chain to win.&lt;/li&gt;
-  &lt;li&gt;So, if a block has more than 5 blocks on top of it, it’s considered &lt;strong&gt;safe&lt;/strong&gt;, meaning that it will not be defeated by another forked blockchain.&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;p&gt;Every nodes should reach a consensus and save same transactions, same blocks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/fork_consensus.png&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;A bitcoin network that reached consensus&lt;/figcaption&gt;
+
+&lt;p&gt;When mining bitcoin, if a mining block finds the correct nonce, it propagates a new block( block A ) to other nodes.&lt;/p&gt;
+
+&lt;p&gt;If a mining node receives a propagated block( block A ) before finding the nonce, it stops current POW and start POW of the block after the received block.&lt;/p&gt;
+
+&lt;p&gt;It takes time for a new block to propagate to every nodes. So, before it’s propagated to every node, another node that hasn’t received the new node might succeed in POW, and start propagating another new block( block B ).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/fork_conflict.png&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;propagating to different blocks&lt;/figcaption&gt;
+
+&lt;p&gt;In this case, some nodes receives block A before block B, while some nodes receives block B before block A. When this happens, a bitcoin network is &lt;strong&gt;forked&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/fork_conflict2.png&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;A forked bitcoin network &lt;/figcaption&gt;
+
+&lt;p&gt;Which block should be selected? block A or block B?&lt;/p&gt;
+
+&lt;p&gt;Mining nodes doesn’t care if the network is forked or not. They just keep mining the next node.&lt;/p&gt;
+
+&lt;p&gt;Let’s say a mining node succeeded POW, made new block ( block C ) on top of block A, and propagated it to other nodes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/fork_resolving.png&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Block C is mined and propagated&lt;/figcaption&gt;
+
+&lt;p&gt;When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more &lt;strong&gt;credible&lt;/strong&gt; then the other. So the node chooses blockchain with block A, and fork is resolved.&lt;/p&gt;
+
+&lt;p&gt;Conventionally, if a network is forked, a node chooses the longest one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/fork_resolved.png&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Fork resolved&lt;/figcaption&gt;
+
+&lt;p&gt;Although blockchain with block B is one height shorter then block A, it still has chance to become longer then blockchain with block A.&lt;/p&gt;
+
+&lt;p&gt;It’s a common sense that if block height differs more than 5 blocks, it’s almost impossible for defeated chain to win.&lt;/p&gt;
+
+&lt;p&gt;So, if a block has more than 5 blocks on top of it, it’s considered &lt;strong&gt;safe&lt;/strong&gt;, meaning that it will not be defeated by another forked blockchain.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
         <link>/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
@@ -55,28 +65,31 @@
   &lt;p&gt;For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;In Bitcoin, &lt;strong&gt;wallet&lt;/strong&gt; is a software that manages &lt;strong&gt;keys&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;A user needs private key and public key to use bitcoin
-&lt;img src=&quot;../assets/images/t2_deterministic.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;deterministic wallets&quot; /&gt;
-    &lt;figcaption&gt;Private key generating in Hierarchical Deterministic Wallets&lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;A seed generates a master private key, and each private key can generate multiple child private key&lt;/li&gt;
-  &lt;li&gt;Each private key is used to make a seperate account&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Seeds are represented as word phrases like this&lt;/p&gt;
+&lt;p&gt;In Bitcoin, &lt;strong&gt;wallet&lt;/strong&gt; is a software that manages &lt;strong&gt;keys&lt;/strong&gt;.&lt;/p&gt;
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  army van defense carry jealous true
-  garbage claim echo media make crunch
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Bitcoin addresses and public keys are generated from private key by applying one way hash function
-&lt;img src=&quot;../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;
-    &lt;figcaption&gt;How public key and Bitcoin address is generated from private key&lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Private keys are generated as random 256byte integer&lt;/li&gt;
-  &lt;li&gt;The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160… and so on. We will cover the math inside it in future articles.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;A user needs private key and public key to use bitcoin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/t2_deterministic.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;deterministic wallets&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Private key generating in Hierarchical Deterministic Wallets&lt;/figcaption&gt;
+
+&lt;p&gt;A seed generates a master private key, and each private key can generate multiple child private key.&lt;/p&gt;
+
+&lt;p&gt;Each private key is used to make a seperate account.&lt;/p&gt;
+
+&lt;p&gt;Seeds are represented as word phrases like this.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    army van defense carry jealous true
+    garbage claim echo media make crunch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bitcoin addresses and public keys are generated from private key by applying one way hash function.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;How public key and Bitcoin address is generated from private key&lt;/figcaption&gt;
+
+&lt;p&gt;Private keys are generated as random 256byte integer.&lt;/p&gt;
+
+&lt;p&gt;The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160… and so on. We will cover the math inside it in future articles.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
         <link>/How-are-bitcoin-wallets-made/</link>
@@ -94,61 +107,67 @@
 &lt;p&gt;&lt;img src=&quot;../assets/images/bitcoin_overview.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;Bitcoin overview&lt;/figcaption&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Bitcoin network is maintained by nodes.&lt;/li&gt;
-  &lt;li&gt;Just as the internet runs on http protocol, bitcoin nodes interact with each other on bitcoin protocol&lt;/li&gt;
-  &lt;li&gt;Nodes are computers that are running bitcoin software&lt;/li&gt;
-  &lt;li&gt;Each node( full node ) saves a copy of bitcoin transaction data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;“coin”&lt;/strong&gt; or &lt;strong&gt;“balance”&lt;/strong&gt; does not exist in bitcoin&lt;/li&gt;
-  &lt;li&gt;Instead, bitcoin saves &lt;strong&gt;transactions&lt;/strong&gt;. With transaction data, bitcoin software can calculate &lt;strong&gt;UTXO&lt;/strong&gt;( Unspent Transaction Output ) to prove how much bitcoins an address owns&lt;/li&gt;
-  &lt;li&gt;Each UTXO can only be spent by a specific user&lt;/li&gt;
-  &lt;li&gt;Transfering a bitcoin from one address to another means to eventually generate a new transaction
-    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// how a transaction data looks like&lt;/span&gt;
+&lt;p&gt;Bitcoin network is maintained by nodes.&lt;/p&gt;
+
+&lt;p&gt;Just as the internet runs on http protocol, bitcoin nodes interact with each other on bitcoin protocol.&lt;/p&gt;
+
+&lt;p&gt;Nodes are computers that are running bitcoin software.&lt;/p&gt;
+
+&lt;p&gt;Each node( full node ) saves a copy of bitcoin transaction data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“coin”&lt;/strong&gt; or &lt;strong&gt;“balance”&lt;/strong&gt; does not exist in bitcoin. Instead, bitcoin saves &lt;strong&gt;transactions&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;With transaction data, bitcoin software can calculate &lt;strong&gt;UTXO&lt;/strong&gt;( Unspent Transaction Output ) to prove how much bitcoins an address owns.&lt;/p&gt;
+
+&lt;p&gt;Each UTXO can only be spent by a specific user.&lt;/p&gt;
+
+&lt;p&gt;Transfering a bitcoin from one address to another means to eventually generate a new transaction.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// how a transaction data looks like&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;locktime&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;vin&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;txid&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;7957a35fe64f80d234d76d83a2a8f1a0d8149a41d81de548f0a65a8a999f6f18&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;vout&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;scriptSig&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;3045022100884d142d86652a3f47ba4746ec719bbfbd040a570b1deccbb6498c75c4ae24cb02204b9f039ff08df09cbe9f6addac960298cad530a863ea8f53982c09db8f6e3813[ALL] 0484ecc0d46f1918b30928fa0e4ed99f16a0fb4fde0735e7ade8416ab9fe423cc5412336376789d172787ec3457eee41c04f4938de5cc17b4a10fa336a8d752adf&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;sequence&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4294967295&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;vout&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;scriptPubKey&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;OP_DUP OP_HASH160 ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY OP_CHECKSIG&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;scriptPubKey&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;OP_DUP OP_HASH160 7f9b1a7fb68d60c536c2fd8aeaa53a8f3cc025a8 OP_EQUALVERIFY OP_CHECKSIG&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;locktime&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;vin&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;txid&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;7957a35fe64f80d234d76d83a2a8f1a0d8149a41d81de548f0a65a8a999f6f18&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;vout&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;scriptSig&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;3045022100884d142d86652a3f47ba4746ec719bbfbd040a570b1deccbb6498c75c4ae24cb02204b9f039ff08df09cbe9f6addac960298cad530a863ea8f53982c09db8f6e3813[ALL] 0484ecc0d46f1918b30928fa0e4ed99f16a0fb4fde0735e7ade8416ab9fe423cc5412336376789d172787ec3457eee41c04f4938de5cc17b4a10fa336a8d752adf&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;sequence&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4294967295&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;vout&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;scriptPubKey&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;OP_DUP OP_HASH160 ab68025513c3dbd2f7b92a94e0581f5d50f654e7 OP_EQUALVERIFY OP_CHECKSIG&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;scriptPubKey&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;OP_DUP OP_HASH160 7f9b1a7fb68d60c536c2fd8aeaa53a8f3cc025a8 OP_EQUALVERIFY OP_CHECKSIG&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;../assets/images/utxo.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;gaori&quot; /&gt;
-    &lt;figcaption&gt;How UTXO set changes as transactions occur overtime&lt;/figcaption&gt;
-  &lt;/li&gt;
-  &lt;li&gt;This is a brief summary of what happens when person X transfers 300 bitcoins to person Y.
-    &lt;ol&gt;
-      &lt;li&gt;Search through every transactions that exists ( since the genesis block )&lt;/li&gt;
-      &lt;li&gt;For each transaction, generate signature with X’s private key and the transaction data. Combine this signature and X’s public key to generate an unlocking script( scriptSig )&lt;/li&gt;
-      &lt;li&gt;Combine this unlocking script( scriptSig ) with the transaction’s output’s locking script( scriptPubKey ) to prove that X can spend that transaction’s output&lt;/li&gt;
-      &lt;li&gt;X should also prove that the output is unspent, iterating through every blocks&lt;/li&gt;
-      &lt;li&gt;If proven that X can spend the transaction’s output and the output is unspent, that output is added to X’s UTXO pool&lt;/li&gt;
-      &lt;li&gt;After iterating through every transactions, pick UTXOs from X’s UTXO pool to use as inputs of a new transaction. The sum of outputs’ value should exceed the amount to transfer, which in this case, is 300&lt;/li&gt;
-      &lt;li&gt;Let’s say that X picked a input from a transaction that has value 400 as its output&lt;/li&gt;
-      &lt;li&gt;X need to transfer 300 bitcoins to Y, so one output has value 300, which can only be spent by Y later, and another output( change ) has value 100, which can only be spent by X later ( transaction fee is not considered for simplicity )&lt;/li&gt;
-      &lt;li&gt;Now that transaction data is made, it is broadcasted to other nodes through bitcoin protocol&lt;/li&gt;
-      &lt;li&gt;When mining nodes receive this transaction data, they add the data to their mempool( transaction pool )&lt;/li&gt;
-      &lt;li&gt;When a mining node includes the transaction to their candidate block’s transactions list and wins the competition, the transaction is now recorded in bitcoin chain forever&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;This process seems inefficient with all the iterations&lt;/li&gt;
-  &lt;li&gt;This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/utxo.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;gaori&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;How UTXO set changes as transactions occur overtime&lt;/figcaption&gt;
+
+&lt;p&gt;This is a brief summary of what happens when person X transfers 300 bitcoins to person Y.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Search through every transactions that exists ( since the genesis block )&lt;/li&gt;
+  &lt;li&gt;For each transaction, generate signature with X’s private key and the transaction data. Combine this signature and X’s public key to generate an unlocking script( scriptSig )&lt;/li&gt;
+  &lt;li&gt;Combine this unlocking script( scriptSig ) with the transaction’s output’s locking script( scriptPubKey ) to prove that X can spend that transaction’s output&lt;/li&gt;
+  &lt;li&gt;X should also prove that the output is unspent, iterating through every blocks&lt;/li&gt;
+  &lt;li&gt;If proven that X can spend the transaction’s output and the output is unspent, that output is added to X’s UTXO pool&lt;/li&gt;
+  &lt;li&gt;After iterating through every transactions, pick UTXOs from X’s UTXO pool to use as inputs of a new transaction. The sum of outputs’ value should exceed the amount to transfer, which in this case, is 300&lt;/li&gt;
+  &lt;li&gt;Let’s say that X picked a input from a transaction that has value 400 as its output&lt;/li&gt;
+  &lt;li&gt;X need to transfer 300 bitcoins to Y, so one output has value 300, which can only be spent by Y later, and another output( change ) has value 100, which can only be spent by X later ( transaction fee is not considered for simplicity )&lt;/li&gt;
+  &lt;li&gt;Now that transaction data is made, it is broadcasted to other nodes through bitcoin protocol&lt;/li&gt;
+  &lt;li&gt;When mining nodes receive this transaction data, they add the data to their mempool( transaction pool )&lt;/li&gt;
+  &lt;li&gt;When a mining node includes the transaction to their candidate block’s transactions list and wins the competition, the transaction is now recorded in bitcoin chain forever&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This process seems inefficient with all the iterations.
+This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 00:00:00 +0900</pubDate>
         <link>/How-does-bitcoin-network-work/</link>
