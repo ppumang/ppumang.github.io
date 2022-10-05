@@ -5,24 +5,62 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2022 17:40:05 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2022 17:40:05 +0900</lastBuildDate>
+    <pubDate>Wed, 05 Oct 2022 22:01:21 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 22:01:21 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>So how are bitcoin wallets made?</title>
+        <title>What happens if two independent blocks are created at the same time?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Every nodes should reach a consensus and save same transactions, same blocks
+&lt;img src=&quot;../assets/images/fork_consensus.png&quot; /&gt;
+    &lt;figcaption&gt;A bitcoin network that reached consensus&lt;/figcaption&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When mining bitcoin, if a mining block finds the correct nonce, it propagates a new block( block A ) to other nodes&lt;/li&gt;
+  &lt;li&gt;If a mining node receives a propagated block( block A ) before finding the nonce, it stops current POW and start POW of the block after the received block&lt;/li&gt;
+  &lt;li&gt;It takes time for a new block to propagate to every nodes. So, before it’s propagated to every node, another node that hasn’t received the new node might succeed in POW, and start propagating another new block( block B )
+&lt;img src=&quot;../assets/images/fork_conflict.png&quot; /&gt;
+    &lt;figcaption&gt;propagating to different blocks&lt;/figcaption&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In this case, some nodes receives block A before block B, while some nodes receives block B before block A. When this happens, a bitcoin network is &lt;strong&gt;forked&lt;/strong&gt;.
+&lt;img src=&quot;../assets/images/fork_conflict2.png&quot; /&gt;
+    &lt;figcaption&gt;A forked bitcoin network &lt;/figcaption&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Which block should be selected? block A or block B?&lt;/li&gt;
+  &lt;li&gt;Mining nodes doesn’t care if the network is forked or not. They just keep mining the next node.&lt;/li&gt;
+  &lt;li&gt;Let’s say a mining node succeeded POW, made new block ( block C ) on top of block A, and propagated it to other nodes
+&lt;img src=&quot;../assets/images/fork_resolving.png&quot; /&gt;
+    &lt;figcaption&gt;Block C is mined and propagated&lt;/figcaption&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more &lt;strong&gt;credible&lt;/strong&gt; then the other. So the node chooses blockchain with block A, and fork is resolved.&lt;/li&gt;
+  &lt;li&gt;Conventionally, if a network is forked, a node chooses the longest one
+&lt;img src=&quot;../assets/images/fork_resolved.png&quot; /&gt;
+    &lt;figcaption&gt;Fork resolved&lt;/figcaption&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Although blockchain with block B is one height shorter then block A, it still has chance to become longer then blockchain with block A&lt;/li&gt;
+  &lt;li&gt;It’s a common sense that if block height differs more than 5 blocks, it’s almost impossible for defeated chain to win.&lt;/li&gt;
+  &lt;li&gt;So, if a block has more than 5 blocks on top of it, it’s considered &lt;strong&gt;safe&lt;/strong&gt;, meaning that it will not be defeated by another forked blockchain.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
+        <link>/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
+        <guid isPermaLink="true">/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How are bitcoin wallets made?</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
   &lt;li&gt;In Bitcoin, &lt;strong&gt;wallet&lt;/strong&gt; is a software that manages &lt;strong&gt;keys&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;A user needs private key and public key to use bitcoin&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/t2_deterministic.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;deterministic wallets&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+  &lt;li&gt;A user needs private key and public key to use bitcoin
+&lt;img src=&quot;../assets/images/t2_deterministic.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;deterministic wallets&quot; /&gt;
+    &lt;figcaption&gt;Private key generating in Hierarchical Deterministic Wallets&lt;/figcaption&gt;
+  &lt;/li&gt;
   &lt;li&gt;A seed generates a master private key, and each private key can generate multiple child private key&lt;/li&gt;
   &lt;li&gt;Each private key is used to make a seperate account&lt;/li&gt;
   &lt;li&gt;
@@ -32,24 +70,22 @@
   garbage claim echo media make crunch
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First, a private key is randomly generated&lt;/li&gt;
-  &lt;li&gt;A &lt;strong&gt;private key&lt;/strong&gt; is transformed into &lt;strong&gt;public key&lt;/strong&gt; and into &lt;strong&gt;bitcoin address&lt;/strong&gt; respectively, by applying one way has function&lt;/li&gt;
+  &lt;li&gt;Bitcoin addresses and public keys are generated from private key by applying one way hash function
+&lt;img src=&quot;../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;
+    &lt;figcaption&gt;How public key and Bitcoin address is generated from private key&lt;/figcaption&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Private keys are generated as random 256byte integer&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/So-how-are-bitcoin-wallets-made/</link>
-        <guid isPermaLink="true">/So-how-are-bitcoin-wallets-made/</guid>
+        <link>/How-are-bitcoin-wallets-made/</link>
+        <guid isPermaLink="true">/How-are-bitcoin-wallets-made/</guid>
         
         
       </item>
     
       <item>
-        <title>So how does bitcoin network work?</title>
+        <title>How does bitcoin network work?</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;for simplicity, this article only deals with full node, P2PKH&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -88,11 +124,9 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/utxo.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;gaori&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+  &lt;li&gt;&lt;img src=&quot;../assets/images/utxo.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;gaori&quot; /&gt;
+    &lt;figcaption&gt;How UTXO set changes as transactions occur overtime&lt;/figcaption&gt;
+  &lt;/li&gt;
   &lt;li&gt;This is a brief summary of what happens when person X transfers 300 bitcoins to person Y.
     &lt;ol&gt;
       &lt;li&gt;Search through every transactions that exists ( since the genesis block )&lt;/li&gt;
@@ -113,8 +147,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/So-how-does-bitcoin-network-work/</link>
-        <guid isPermaLink="true">/So-how-does-bitcoin-network-work/</guid>
+        <link>/How-does-bitcoin-network-work/</link>
+        <guid isPermaLink="true">/How-does-bitcoin-network-work/</guid>
         
         
       </item>

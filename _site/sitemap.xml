@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/So-how-are-bitcoin-wallets-made/</loc>
+      <loc>/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</loc>
       
         <lastmod>2022-10-05T00:00:00+09:00</lastmod>
       
@@ -18,7 +18,23 @@
     </url>
   
     <url>
-      <loc>/So-how-does-bitcoin-network-work/</loc>
+      <loc>/How-are-bitcoin-wallets-made/</loc>
+      
+        <lastmod>2022-10-05T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>/How-does-bitcoin-network-work/</loc>
       
         <lastmod>2022-10-04T00:00:00+09:00</lastmod>
       

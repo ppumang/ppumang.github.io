@@ -34,7 +34,8 @@
 }
 ```
 
-<img src="../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori"/><br/>
+- <img src="../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori"/>
+  <figcaption>How UTXO set changes as transactions occur overtime</figcaption>
 
 - This is a brief summary of what happens when person X transfers 300 bitcoins to person Y. 
 1. Search through every transactions that exists ( since the genesis block )
