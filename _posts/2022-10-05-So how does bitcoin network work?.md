@@ -42,10 +42,10 @@
 1. If proven that X can spend the transaction's output and the output is unspent, that output is added to X's UTXO pool
 1. After iterating through every transactions, pick UTXOs from X's UTXO pool to use as inputs of a new transaction. The sum of outputs' value should exceed the amount to transfer, which in this case, is 300
 1. Let's say that X picked a input from a transaction that has value 400 as its output
-1. X need to transfer 300 bitcoins to Y, so one output has value 300, which can be only spent by Y later, and another output( change ) has value 100, which can be only spent by X later ( transaction fee is not considered for simplicity )
+1. X need to transfer 300 bitcoins to Y, so one output has value 300, which can only be spent by Y later, and another output( change ) has value 100, which can only be spent by X later ( transaction fee is not considered for simplicity )
 1. Now that transaction data is made, it is broadcasted to other nodes through bitcoin protocol
-1. When mining nodes receive this transaction data, they add the data to their mempool
-1. When a mining node includes the transaction to their candidate block's transactions list and it wins the competition, the transaction is now recorded in bitcoin chain forever
+1. When mining nodes receive this transaction data, they add the data to their mempool( transaction pool )
+1. When a mining node includes the transaction to their candidate block's transactions list and wins the competition, the transaction is now recorded in bitcoin chain forever
 
 - This process seems inefficient with all the iterations
 - This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles
