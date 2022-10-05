@@ -17,3 +17,4 @@
 <img src="../assets/images/pvkey_pubkey_addr.png" title="px(픽셀) 크기 설정" alt="private key to address"/>
     <figcaption>How public key and Bitcoin address is generated from private key</figcaption>
 - Private keys are generated as random 256byte integer
+- The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160... and so on. We will cover the math inside it in future articles.

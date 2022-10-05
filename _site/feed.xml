@@ -5,8 +5,8 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2022 22:08:49 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2022 22:08:49 +0900</lastBuildDate>
+    <pubDate>Wed, 05 Oct 2022 22:19:31 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 22:19:31 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -75,6 +75,7 @@
     &lt;figcaption&gt;How public key and Bitcoin address is generated from private key&lt;/figcaption&gt;
   &lt;/li&gt;
   &lt;li&gt;Private keys are generated as random 256byte integer&lt;/li&gt;
+  &lt;li&gt;The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160… and so on. We will cover the math inside it in future articles.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
