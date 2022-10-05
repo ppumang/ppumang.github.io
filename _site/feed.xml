@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-10-05T15:42:30+09:00</updated><id>/feed.xml</id><title type="html">ppumang’s dev blog</title><subtitle>blockchain, web, machine learning</subtitle><author><name>ppumang</name></author><entry><title type="html">So how are bicoin wallets made?</title><link href="/So-how-are-bicoin-wallets-made/" rel="alternate" type="text/html" title="So how are bicoin wallets made?" /><published>2022-10-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><id>/So%20how%20are%20bicoin%20wallets%20made</id><content type="html" xml:base="/So-how-are-bicoin-wallets-made/"><![CDATA[]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">So how does bitcoin network work?</title><link href="/So-how-does-bitcoin-network-work/" rel="alternate" type="text/html" title="So how does bitcoin network work?" /><published>2022-10-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><id>/So%20how%20does%20bitcoin%20network%20work</id><content type="html" xml:base="/So-how-does-bitcoin-network-work/"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-05T15:55:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ppumang’s dev blog</title><subtitle>An amazing website.</subtitle><author><name>ppumang</name></author><entry><title type="html">So how are bicoin wallets made?</title><link href="http://localhost:4000/So-how-are-bicoin-wallets-made/" rel="alternate" type="text/html" title="So how are bicoin wallets made?" /><published>2022-10-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><id>http://localhost:4000/So%20how%20are%20bicoin%20wallets%20made</id><content type="html" xml:base="http://localhost:4000/So-how-are-bicoin-wallets-made/"><![CDATA[<ul>
+  <li>First, a private key is generated</li>
+  <li>private key</li>
+</ul>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[First, a private key is generated private key]]></summary></entry><entry><title type="html">So how does bitcoin network work?</title><link href="http://localhost:4000/So-how-does-bitcoin-network-work/" rel="alternate" type="text/html" title="So how does bitcoin network work?" /><published>2022-10-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><id>http://localhost:4000/So%20how%20does%20bitcoin%20network%20work</id><content type="html" xml:base="http://localhost:4000/So-how-does-bitcoin-network-work/"><![CDATA[<blockquote>
   <p>for simplicity, this article only deals with full node, P2PKH</p>
 </blockquote>
 
@@ -36,6 +39,11 @@
 <span class="p">}</span>
 </code></pre></div>    </div>
   </li>
+</ul>
+
+<p><img src="../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori" /><br /></p>
+
+<ul>
   <li>This is a brief summary of what happens when person X transfers 300 bitcoins to person Y.
     <ol>
       <li>Search through every transactions that exists ( since the genesis block )</li>
@@ -53,7 +61,7 @@
   </li>
   <li>This process seems inefficient with all the iterations</li>
   <li>This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles</li>
-</ul>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[for simplicity, this article only deals with full node, P2PKH]]></summary></entry><entry><title type="html">Markdown</title><link href="/markdown/" rel="alternate" type="text/html" title="Markdown" /><published>2022-01-01T00:00:00+09:00</published><updated>2022-01-01T00:00:00+09:00</updated><id>/markdown</id><content type="html" xml:base="/markdown/"><![CDATA[<h1 id="this-is-an-h1">This is an H1</h1>
+</ul>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[for simplicity, this article only deals with full node, P2PKH]]></summary></entry><entry><title type="html">Markdown</title><link href="http://localhost:4000/markdown/" rel="alternate" type="text/html" title="Markdown" /><published>2022-01-01T00:00:00+09:00</published><updated>2022-01-01T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/markdown/"><![CDATA[<h1 id="this-is-an-h1">This is an H1</h1>
 
 <h2 id="this-is-an-h2">This is an H2</h2>
 

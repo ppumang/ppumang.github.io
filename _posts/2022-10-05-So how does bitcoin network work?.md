@@ -34,6 +34,8 @@
 }
 ```
 
+<img src="../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori"/><br/>
+
 - This is a brief summary of what happens when person X transfers 300 bitcoins to person Y. 
 1. Search through every transactions that exists ( since the genesis block )
 1. For each transaction, generate signature with X's private key and the transaction data. Combine this signature and X's public key to generate an unlocking script( scriptSig )
