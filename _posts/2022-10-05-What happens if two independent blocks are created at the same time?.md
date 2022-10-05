@@ -1,3 +1,6 @@
+---
+topic: bitcoin
+---
 - Every nodes should reach a consensus and save same transactions, same blocks
 <img src="../assets/images/fork_consensus.png" />
     <figcaption>A bitcoin network that reached consensus</figcaption>

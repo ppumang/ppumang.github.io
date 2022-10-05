@@ -1,3 +1,6 @@
+---
+topic: bitcoin
+---
 > For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered
 
 - In Bitcoin, **wallet** is a software that manages **keys**

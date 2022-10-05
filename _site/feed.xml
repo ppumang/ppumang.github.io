@@ -3,10 +3,10 @@
   <channel>
     <title>ppumang&apos;s dev blog</title>
     <description>blockchain, web, machine learning</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2022 22:19:31 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2022 22:19:31 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 05 Oct 2022 22:28:17 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 22:28:17 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -43,8 +43,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
-        <guid isPermaLink="true">/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
+        <link>http://localhost:4000/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
+        <guid isPermaLink="true">http://localhost:4000/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
         
         
       </item>
@@ -79,8 +79,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/How-are-bitcoin-wallets-made/</link>
-        <guid isPermaLink="true">/How-are-bitcoin-wallets-made/</guid>
+        <link>http://localhost:4000/How-are-bitcoin-wallets-made/</link>
+        <guid isPermaLink="true">http://localhost:4000/How-are-bitcoin-wallets-made/</guid>
         
         
       </item>
@@ -151,8 +151,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/How-does-bitcoin-network-work/</link>
-        <guid isPermaLink="true">/How-does-bitcoin-network-work/</guid>
+        <link>http://localhost:4000/How-does-bitcoin-network-work/</link>
+        <guid isPermaLink="true">http://localhost:4000/How-does-bitcoin-network-work/</guid>
         
         
       </item>

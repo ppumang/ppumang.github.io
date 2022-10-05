@@ -1,3 +1,6 @@
+---
+topic: bitcoin
+---
 > for simplicity, this article only deals with full node, P2PKH
 
 <img src="../assets/images/bitcoin_overview.png" />
