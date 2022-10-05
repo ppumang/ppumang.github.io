@@ -3,10 +3,10 @@
   <channel>
     <title>ppumang&apos;s dev blog</title>
     <description>blockchain, web, machine learning</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2022 17:21:04 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2022 17:21:04 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 05 Oct 2022 17:35:15 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 17:35:15 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -24,17 +24,26 @@
 
 &lt;ul&gt;
   &lt;li&gt;A seed generates a master private key, and each private key can generate multiple child private key&lt;/li&gt;
+  &lt;li&gt;Each private key is used to make a seperate account&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seeds are represented as word phrases like this&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  army van defense carry jealous true
+  garbage claim echo media make crunch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;First, a private key is generated&lt;/li&gt;
-  &lt;li&gt;private key&lt;/li&gt;
+  &lt;li&gt;First, a private key is randomly generated&lt;/li&gt;
+  &lt;li&gt;A &lt;strong&gt;private key&lt;/strong&gt; is transformed into &lt;strong&gt;public key&lt;/strong&gt; and into &lt;strong&gt;bitcoin address&lt;/strong&gt; respectively, by applying one way has function&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/So-how-are-bicoin-wallets-made/</link>
-        <guid isPermaLink="true">/So-how-are-bicoin-wallets-made/</guid>
+        <link>http://localhost:4000/So-how-are-bicoin-wallets-made/</link>
+        <guid isPermaLink="true">http://localhost:4000/So-how-are-bicoin-wallets-made/</guid>
         
         
       </item>
@@ -104,8 +113,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/So-how-does-bitcoin-network-work/</link>
-        <guid isPermaLink="true">/So-how-does-bitcoin-network-work/</guid>
+        <link>http://localhost:4000/So-how-does-bitcoin-network-work/</link>
+        <guid isPermaLink="true">http://localhost:4000/So-how-does-bitcoin-network-work/</guid>
         
         
       </item>
@@ -254,8 +263,8 @@ public class BootSpringBootApplication {
 
 </description>
         <pubDate>Sat, 01 Jan 2022 00:00:00 +0900</pubDate>
-        <link>/markdown/</link>
-        <guid isPermaLink="true">/markdown/</guid>
+        <link>http://localhost:4000/markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/markdown/</guid>
         
         
       </item>
