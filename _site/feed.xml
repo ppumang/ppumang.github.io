@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-04T23:37:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ppumang’s dev blog</title><subtitle>An amazing website.</subtitle><author><name>ppumang</name></author><entry><title type="html">Markdown</title><link href="http://localhost:4000/markdown/" rel="alternate" type="text/html" title="Markdown" /><published>2022-10-04T00:00:00+09:00</published><updated>2022-10-04T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/markdown/"><![CDATA[<h1 id="this-is-an-h1">This is an H1</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-05T12:04:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ppumang’s dev blog</title><subtitle>An amazing website.</subtitle><author><name>ppumang</name></author><entry><title type="html">So how are bicoin wallets made?</title><link href="http://localhost:4000/So-how-are-bicoin-wallets-made/" rel="alternate" type="text/html" title="So how are bicoin wallets made?" /><published>2022-10-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><id>http://localhost:4000/So%20how%20are%20bicoin%20wallets%20made</id><content type="html" xml:base="http://localhost:4000/So-how-are-bicoin-wallets-made/"><![CDATA[]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">So how does bitcoin network works?</title><link href="http://localhost:4000/So-how-does-bitcoin-network-works/" rel="alternate" type="text/html" title="So how does bitcoin network works?" /><published>2022-10-05T00:00:00+09:00</published><updated>2022-10-05T00:00:00+09:00</updated><id>http://localhost:4000/So%20how%20does%20bitcoin%20network%20works</id><content type="html" xml:base="http://localhost:4000/So-how-does-bitcoin-network-works/"><![CDATA[<blockquote>
+  <p>for simplicity, this article only deals with full node, P2PKH</p>
+</blockquote>
+
+<ul>
+  <li>Bitcoin network is maintained by nodes.</li>
+  <li>Just as internet runs on http protocol, bitcoin nodes interact with each other on bitcoin protocol</li>
+  <li>Nodes are computers that are running bitcoin software</li>
+  <li>Each node(full node) saves copies of bitcoin transaction data</li>
+  <li><strong>“coin”</strong> or <strong>“balance”</strong> does not exist in bitcoin</li>
+  <li>Only thing that exists as a proof of money is <strong>UTXO</strong>(Unspent Transaction Output)</li>
+  <li>Each UTXOs can only be spent by specific user</li>
+  <li>You should follow this step to transfer your bitcoin
+    <ol>
+      <li>Search through every transactions that exists ( from the genesis block ) to find UTXOs that belongs to you</li>
+      <li></li>
+    </ol>
+  </li>
+</ul>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[for simplicity, this article only deals with full node, P2PKH]]></summary></entry><entry><title type="html">Markdown</title><link href="http://localhost:4000/markdown/" rel="alternate" type="text/html" title="Markdown" /><published>2022-10-04T00:00:00+09:00</published><updated>2022-10-04T00:00:00+09:00</updated><id>http://localhost:4000/markdown</id><content type="html" xml:base="http://localhost:4000/markdown/"><![CDATA[<h1 id="this-is-an-h1">This is an H1</h1>
 
 <h2 id="this-is-an-h2">This is an H2</h2>
 
@@ -136,24 +154,4 @@ public class BootSpringBootApplication {
 
 <p><img src="/assets/images/gaori.png" alt="Alt text" /></p>
 
-<p><img src="../assets/images/gaori.png" height="300px" title="px(픽셀) 크기 설정" alt="gaori" /><br /></p>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[This is an H1]]></summary></entry><entry><title type="html">Kiwifruit</title><link href="http://localhost:4000/kiwifruit/" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00+09:00</published><updated>2018-08-22T00:00:00+09:00</updated><id>http://localhost:4000/kiwifruit</id><content type="html" xml:base="http://localhost:4000/kiwifruit/"><![CDATA[<p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.</p>
-
-<p>The most common cultivar group of kiwifruit is oval, about the size of a large
-hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
-diameter). It has a fibrous, dull greenish-brown skin and bright green or
-golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-texture, with a sweet and unique flavor.</p>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.]]></summary></entry><entry><title type="html">Apples</title><link href="http://localhost:4000/apples/" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+09:00</published><updated>2018-08-21T00:00:00+09:00</updated><id>http://localhost:4000/apples</id><content type="html" xml:base="http://localhost:4000/apples/"><![CDATA[<p>An apple is a sweet, edible fruit produced by an apple tree.</p>
-
-<p>Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.</p>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[An apple is a sweet, edible fruit produced by an apple tree.]]></summary></entry><entry><title type="html">Bananas</title><link href="http://localhost:4000/bananas/" rel="alternate" type="text/html" title="Bananas" /><published>2018-08-20T00:00:00+09:00</published><updated>2018-08-20T00:00:00+09:00</updated><id>http://localhost:4000/bananas</id><content type="html" xml:base="http://localhost:4000/bananas/"><![CDATA[<p>A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
-
-<p>In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary></entry></feed>
+<p><img src="../assets/images/gaori.png" height="300px" title="px(픽셀) 크기 설정" alt="gaori" /><br /></p>]]></content><author><name>ppumang</name></author><summary type="html"><![CDATA[This is an H1]]></summary></entry></feed>
