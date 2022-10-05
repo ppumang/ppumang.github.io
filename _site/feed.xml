@@ -5,8 +5,8 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2022 22:01:21 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2022 22:01:21 +0900</lastBuildDate>
+    <pubDate>Wed, 05 Oct 2022 22:08:49 +0900</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2022 22:08:49 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -89,6 +89,9 @@
         <description>&lt;blockquote&gt;
   &lt;p&gt;for simplicity, this article only deals with full node, P2PKH&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/bitcoin_overview.png&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;Bitcoin overview&lt;/figcaption&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Bitcoin network is maintained by nodes.&lt;/li&gt;

@@ -1,5 +1,8 @@
 > for simplicity, this article only deals with full node, P2PKH
 
+<img src="../assets/images/bitcoin_overview.png" />
+<figcaption>Bitcoin overview</figcaption>
+
 - Bitcoin network is maintained by nodes.
 - Just as the internet runs on http protocol, bitcoin nodes interact with each other on bitcoin protocol
 - Nodes are computers that are running bitcoin software
