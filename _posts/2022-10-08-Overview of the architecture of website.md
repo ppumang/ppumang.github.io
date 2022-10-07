@@ -17,7 +17,7 @@ A website is composed of three parts. **Frontend**, **backend** and **database**
 - Draws content on a browser
 - It can't save data permanently. Instead, it draws screen based on html, css, javascript, images, and data it received from server
 - html - the content that we can see on a website ( text, boxes, textareas... etc. )
-- css - decorates and puts html elements on the right place. ( colors of text, position of boxes, background of website... etc. )
+- css - decorates and puts html elements on the right place. ( colors of texts, positions of boxes, background image of website... etc. )
 - javascript - gives functionality to website. ( sending form data to server when a button is pressed, fetching data by requesting http request to the server... etc. )
 
 **Backend**
