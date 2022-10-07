@@ -5,8 +5,8 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 16:42:15 +0900</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 16:42:15 +0900</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2022 16:43:30 +0900</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2022 16:43:30 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -98,7 +98,11 @@ Ethereum has several interoperable implementations of the client software, the m
     
       <item>
         <title>ppumang's dev blog - How is ethereum different from bitcoin?</title>
-        <description>&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network.&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network.&lt;/p&gt;
 
 &lt;p&gt;While the digital currency &lt;strong&gt;ether&lt;/strong&gt; is intended as a &lt;strong&gt;utility currency&lt;/strong&gt; to pay for use of the Ethereum platform as the world computer.&lt;/p&gt;
 

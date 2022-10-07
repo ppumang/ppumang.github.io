@@ -1,6 +1,9 @@
 ---
 topic: ethereum
 ---
+
+> This article is scrapped from "Mastering Ethereum"
+
 Ethereum’s purpose is not primarily to be a digital currency payment network. 
 
 While the digital currency **ether** is intended as a **utility currency** to pay for use of the Ethereum platform as the world computer.
