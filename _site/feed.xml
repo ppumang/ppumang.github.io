@@ -5,8 +5,8 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 19:34:21 +0900</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 19:34:21 +0900</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2022 19:59:35 +0900</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2022 19:59:35 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -51,11 +51,11 @@ Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty aga
 &lt;p&gt;In 2022-10-07, Ethereum’s block height is 15,694,029&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/blockchain/Ethereum's-roadmap/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/blockchain/Ethereum's-roadmap/</guid>
+        <link>https://ppumang.github.io/ethereum/Ethereum's-roadmap/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/ethereum/Ethereum's-roadmap/</guid>
         
         
-        <category>blockchain</category>
+        <category>ethereum</category>
         
       </item>
     
@@ -92,11 +92,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;&lt;em&gt;Note: Ethereum finalized ‘&lt;strong&gt;The Merge&lt;/strong&gt;’ at block #15,537,393 on September 15, 2022, at 1:42:42 EST. Which means that Ethereum has moved from PoW to PoS. Instead of mining, Ethereum will rely on stakers to secure the network.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/blockchain/Ethereum's-components/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/blockchain/Ethereum's-components/</guid>
+        <link>https://ppumang.github.io/ethereum/Ethereum's-components/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/ethereum/Ethereum's-components/</guid>
         
         
-        <category>blockchain</category>
+        <category>ethereum</category>
         
       </item>
     
@@ -131,11 +131,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;&lt;em&gt;To solve this problem, Ethereum introduced the concept of &lt;strong&gt;gas&lt;/strong&gt;. While running a smart contract, in each operations( computations, data access, etc. ), a pre-defined amount of gas is used. When sending transaction to trigger execution, a user has to set a &lt;strong&gt;gas limit&lt;/strong&gt;. If a gas used in execution exceeds the gas limit, the EVM will terminate the execution, leaving the state unchanged.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/blockchain/How-is-Ethereum-different-from-Bitcoin/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/blockchain/How-is-Ethereum-different-from-Bitcoin/</guid>
+        <link>https://ppumang.github.io/ethereum/How-is-Ethereum-different-from-Bitcoin/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/ethereum/How-is-Ethereum-different-from-Bitcoin/</guid>
         
         
-        <category>blockchain</category>
+        <category>ethereum</category>
         
       </item>
     
@@ -185,11 +185,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;So, if a block has more than 5 blocks on top of it, it’s considered &lt;strong&gt;safe&lt;/strong&gt;, meaning that it will not be defeated by another forked blockchain.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/blockchain/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/blockchain/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
+        <link>https://ppumang.github.io/bitcoin/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/bitcoin/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
         
         
-        <category>blockchain</category>
+        <category>bitcoin</category>
         
       </item>
     
@@ -226,11 +226,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160… and so on. We will cover the math inside it in future articles.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/blockchain/How-are-bitcoin-wallets-made/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/blockchain/How-are-bitcoin-wallets-made/</guid>
+        <link>https://ppumang.github.io/bitcoin/How-are-bitcoin-wallets-made/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/bitcoin/How-are-bitcoin-wallets-made/</guid>
         
         
-        <category>blockchain</category>
+        <category>bitcoin</category>
         
       </item>
     
@@ -306,11 +306,11 @@ Ethereum has several interoperable implementations of the client software, the m
 This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/blockchain/How-does-bitcoin-network-work/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/blockchain/How-does-bitcoin-network-work/</guid>
+        <link>https://ppumang.github.io/bitcoin/How-does-bitcoin-network-work/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/bitcoin/How-does-bitcoin-network-work/</guid>
         
         
-        <category>blockchain</category>
+        <category>bitcoin</category>
         
       </item>
     

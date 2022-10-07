@@ -282,7 +282,7 @@ defaults:
   - scope:
       path: ""
     values:
-      # author_profile: true
+      author_profile: true
       sidebar:
         nav: sidebar-category
   # _posts

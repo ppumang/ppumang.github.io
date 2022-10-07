@@ -1,6 +1,6 @@
 ---
 topic: bitcoin
-categories: blockchain
+categories: bitcoin
 ---
 > for simplicity, this article only deals with full node, P2PKH
 

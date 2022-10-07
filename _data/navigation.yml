@@ -16,5 +16,7 @@ main:
 sidebar-category:
   - title: Blockchain
     children:
-      - title: blockchain
-        url: blockchain
+      - title: bitcoin
+        url: bitcoin
+      - title: ethereum
+        url: ethereum

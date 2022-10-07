@@ -1,6 +1,6 @@
 ---
 topic: bitcoin
-categories: blockchain
+categories: bitcoin
 ---
 
 Every nodes should reach a consensus and save same transactions, same blocks.
