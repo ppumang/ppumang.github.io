@@ -1,5 +1,4 @@
 ---
-topic: ethereum
 categories: ethereum
 ---
 

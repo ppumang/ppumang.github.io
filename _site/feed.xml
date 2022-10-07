@@ -5,9 +5,62 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 22:00:14 +0900</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 22:00:14 +0900</lastBuildDate>
+    <pubDate>Sat, 08 Oct 2022 00:50:32 +0900</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2022 00:50:32 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ppumang's dev blog - Overview of the structure of website</title>
+        <description>&lt;p&gt;Everyday, we search through google, click the link of a website, and contents of the website just pops up.&lt;/p&gt;
+
+&lt;p&gt;This seems so obvious, but how does it actually work? We’ll go through details of how these web contents is delivered to us.&lt;/p&gt;
+
+&lt;p&gt;What we expect from a website is to access the database from a client(browser). To achieve this, there is a server running 24 hours a day, and it receives a http request from a client, access a database with TCP protocol, fetch data(or update, delete, create) and send it back to the client.&lt;/p&gt;
+
+&lt;p&gt;So, we the essense of a website is to manipulate database from client.&lt;/p&gt;
+
+&lt;p&gt;A website is composed of three parts. &lt;strong&gt;Frontend&lt;/strong&gt;, &lt;strong&gt;backend&lt;/strong&gt; and &lt;strong&gt;database&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;frontend&quot;&gt;&lt;strong&gt;Frontend&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Draws content on browser&lt;/li&gt;
+  &lt;li&gt;It can’t save data permanently. Instead, it draws screen based on html, css, javascript, images, and data it received from server&lt;/li&gt;
+  &lt;li&gt;html - the content that we can see on a website ( text, boxes, textareas… etc. )&lt;/li&gt;
+  &lt;li&gt;css - decorates and puts html elements on the right place. ( colors of text, position of boxes, background of website… etc. )&lt;/li&gt;
+  &lt;li&gt;javascript - gives functionality to website. ( sending forms to server when a button is pressed, fetching data by requesting http request to the server… etc. )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;backend&quot;&gt;&lt;strong&gt;Backend&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;A computer running 24hours a day.&lt;/li&gt;
+  &lt;li&gt;Listens to requests and respond to it. (API)&lt;/li&gt;
+  &lt;li&gt;Connects to database and manipulate data&lt;/li&gt;
+  &lt;li&gt;python - django, flask, fast api…&lt;/li&gt;
+  &lt;li&gt;java - spring&lt;/li&gt;
+  &lt;li&gt;javascript - node js&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;database&quot;&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Saves a huge amount of data in a efficient way&lt;/li&gt;
+  &lt;li&gt;Tree-like data structures are commonly used&lt;/li&gt;
+  &lt;li&gt;Can find data efficiently by indexing&lt;/li&gt;
+  &lt;li&gt;Schema is used to save data in a structured form&lt;/li&gt;
+  &lt;li&gt;Interacts with backend for data manipulation&lt;/li&gt;
+  &lt;li&gt;SQL - MySQL, Postgresql, Oracle DB … etc.&lt;/li&gt;
+  &lt;li&gt;NoSQL - Mongodb, Couchdb, Dynamo DB, Firebase rdb … etc.&lt;/li&gt;
+  &lt;li&gt;In-memory DB - redis, memcached, cassandra… etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 08 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/web/Overview-of-the-structure-of-website/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/web/Overview-of-the-structure-of-website/</guid>
+        
+        
+        <category>web</category>
+        
+      </item>
     
       <item>
         <title>ppumang's dev blog - Ethereum&apos;s roadmap</title>

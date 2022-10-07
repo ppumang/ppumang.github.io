@@ -1,5 +1,4 @@
 ---
-topic: bitcoin
 categories: bitcoin
 ---
 

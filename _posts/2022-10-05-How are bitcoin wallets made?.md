@@ -1,5 +1,4 @@
 ---
-topic: bitcoin
 categories: bitcoin
 ---
 > For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered
