@@ -33,6 +33,8 @@ Let's say a mining node succeeded POW, made new block ( block C ) on top of bloc
 
 When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more **credible** then the other. So the node chooses blockchain with block A, and fork is resolved.
 
+Block that has not been chosen is called an **orphan block** or **stale block**. In this case, block B is an orphan block.
+
 Conventionally, if a network is forked, a node chooses the longest one.
 
 <img src="../assets/images/fork_resolved.png" />

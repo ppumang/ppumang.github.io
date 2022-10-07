@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ppumang&apos;s dev blog</title>
+    <title>ppumang's dev blog - ppumang&apos;s dev blog</title>
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2022 22:59:57 +0900</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2022 22:59:57 +0900</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2022 13:27:53 +0900</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2022 13:27:53 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>What happens if two independent blocks are created at the same time?</title>
+        <title>ppumang's dev blog - What happens if two independent blocks are created at the same time?</title>
         <description>&lt;p&gt;Every nodes should reach a consensus and save same transactions, same blocks.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/fork_consensus.png&quot; /&gt;&lt;/p&gt;
@@ -41,6 +41,8 @@
 
 &lt;p&gt;When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more &lt;strong&gt;credible&lt;/strong&gt; then the other. So the node chooses blockchain with block A, and fork is resolved.&lt;/p&gt;
 
+&lt;p&gt;Block that has not been chosen is called an &lt;strong&gt;orphan block&lt;/strong&gt; or &lt;strong&gt;stale block&lt;/strong&gt;. In this case, block B is an orphan block.&lt;/p&gt;
+
 &lt;p&gt;Conventionally, if a network is forked, a node chooses the longest one.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/fork_resolved.png&quot; /&gt;&lt;/p&gt;
@@ -60,7 +62,23 @@
       </item>
     
       <item>
-        <title>How are bitcoin wallets made?</title>
+        <title>ppumang's dev blog - How is ethereum different from bitcoin?</title>
+        <description>&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network. While the digital currency ether is both integral to and necessary for the operation of Ethereum, ether is intended as a utility currency to pay for use of the Ethereum platform as the world computer.&lt;/p&gt;
+
+&lt;p&gt;Ethereum is designed to be a general-purpose programmable blockchain that runs a virtual machine capable of executing code of arbitrary and unbounded complexity.&lt;/p&gt;
+
+&lt;p&gt;Ethereum’s language is Turing complete, meaning that Ethereum can straightforwardly function as a general-purpose computer.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
+        <link>/How-is-Ethereum-different-from-Bitcoin/</link>
+        <guid isPermaLink="true">/How-is-Ethereum-different-from-Bitcoin/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - How are bitcoin wallets made?</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -99,7 +117,7 @@
       </item>
     
       <item>
-        <title>How does bitcoin network work?</title>
+        <title>ppumang's dev blog - How does bitcoin network work?</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;for simplicity, this article only deals with full node, P2PKH&lt;/p&gt;
 &lt;/blockquote&gt;
