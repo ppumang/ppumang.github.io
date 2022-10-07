@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dirt" # "air", "contrast", "aqua", "dark", "default"
 locale                   : "en-US"
 title                    : "ppumang's dev blog"
 title_separator          : "-"
-subtitle                 : "blockchain, web, deep learning, mathematics... etc." # site tagline that appears below site title in masthead
+subtitle                 : "blockchain, web, deep learning, mathematics" # site tagline that appears below site title in masthead
 name                     : "ppumang"
 description              : "blockchain, web, machine learning"
 url                      : "https://ppumang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
