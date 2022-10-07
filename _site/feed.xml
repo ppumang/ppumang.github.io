@@ -5,12 +5,12 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Oct 2022 01:16:57 +0900</pubDate>
-    <lastBuildDate>Sat, 08 Oct 2022 01:16:57 +0900</lastBuildDate>
+    <pubDate>Sat, 08 Oct 2022 01:28:46 +0900</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2022 01:28:46 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>ppumang's dev blog - Overview of the architecture of website</title>
+        <title>ppumang's dev blog - Overview of the architecture of websites</title>
         <description>&lt;p&gt;Everyday, we search through google, click the link of a website, and contents of the website just pop up.&lt;/p&gt;
 
 &lt;p&gt;This seems so obvious, but how does it actually work? We’ll go through details of how these web contents is delivered to us.&lt;/p&gt;
@@ -57,8 +57,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/web/Overview-of-the-architecture-of-website/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/web/Overview-of-the-architecture-of-website/</guid>
+        <link>https://ppumang.github.io/web/Overview-of-the-architecture-of-websites/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/web/Overview-of-the-architecture-of-websites/</guid>
         
         
         <category>web</category>
