@@ -5,8 +5,8 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 13:27:53 +0900</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 13:27:53 +0900</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2022 13:32:12 +0900</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2022 13:32:12 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -14,7 +14,7 @@
         <description>&lt;p&gt;Every nodes should reach a consensus and save same transactions, same blocks.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/fork_consensus.png&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;A bitcoin network that reached consensus&lt;/figcaption&gt;
+&lt;figcaption&gt;A bitcoin network that reached consensus, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;When mining bitcoin, if a mining block finds the correct nonce, it propagates a new block( block A ) to other nodes.&lt;/p&gt;
 
@@ -23,12 +23,12 @@
 &lt;p&gt;It takes time for a new block to propagate to every nodes. So, before it’s propagated to every node, another node that hasn’t received the new node might succeed in POW, and start propagating another new block( block B ).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/fork_conflict.png&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;propagating to different blocks&lt;/figcaption&gt;
+&lt;figcaption&gt;propagating to different blocks, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;In this case, some nodes receives block A before block B, while some nodes receives block B before block A. When this happens, a bitcoin network is &lt;strong&gt;forked&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/fork_conflict2.png&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;A forked bitcoin network &lt;/figcaption&gt;
+&lt;figcaption&gt;A forked bitcoin network, &quot;bitcoin book&quot; &lt;/figcaption&gt;
 
 &lt;p&gt;Which block should be selected? block A or block B?&lt;/p&gt;
 
@@ -37,7 +37,7 @@
 &lt;p&gt;Let’s say a mining node succeeded POW, made new block ( block C ) on top of block A, and propagated it to other nodes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/fork_resolving.png&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;Block C is mined and propagated&lt;/figcaption&gt;
+&lt;figcaption&gt;Block C is mined and propagated, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more &lt;strong&gt;credible&lt;/strong&gt; then the other. So the node chooses blockchain with block A, and fork is resolved.&lt;/p&gt;
 
@@ -46,7 +46,7 @@
 &lt;p&gt;Conventionally, if a network is forked, a node chooses the longest one.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/fork_resolved.png&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;Fork resolved&lt;/figcaption&gt;
+&lt;figcaption&gt;Fork resolved, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;Although blockchain with block B is one height shorter then block A, it still has chance to become longer then blockchain with block A.&lt;/p&gt;
 
@@ -63,12 +63,13 @@
     
       <item>
         <title>ppumang's dev blog - How is ethereum different from bitcoin?</title>
-        <description>&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network. While the digital currency ether is both integral to and necessary for the operation of Ethereum, ether is intended as a utility currency to pay for use of the Ethereum platform as the world computer.&lt;/p&gt;
+        <description>&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network.&lt;/p&gt;
+
+&lt;p&gt;While the digital currency ether is both integral to and necessary for the operation of Ethereum, ether is intended as a utility currency to pay for use of the Ethereum platform as the world computer.&lt;/p&gt;
 
 &lt;p&gt;Ethereum is designed to be a general-purpose programmable blockchain that runs a virtual machine capable of executing code of arbitrary and unbounded complexity.&lt;/p&gt;
 
 &lt;p&gt;Ethereum’s language is Turing complete, meaning that Ethereum can straightforwardly function as a general-purpose computer.&lt;/p&gt;
-
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
         <link>/How-is-Ethereum-different-from-Bitcoin/</link>
@@ -88,7 +89,7 @@
 &lt;p&gt;A user needs private key and public key to use bitcoin.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/t2_deterministic.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;deterministic wallets&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;Private key generating in Hierarchical Deterministic Wallets&lt;/figcaption&gt;
+&lt;figcaption&gt;Private key generating in Hierarchical Deterministic Wallets, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;A seed generates a master private key, and each private key can generate multiple child private key.&lt;/p&gt;
 
@@ -103,7 +104,7 @@
 &lt;p&gt;Bitcoin addresses and public keys are generated from private key by applying one way hash function.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;How public key and Bitcoin address is generated from private key&lt;/figcaption&gt;
+&lt;figcaption&gt;How public key and Bitcoin address is generated from private key, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;Private keys are generated as random 256byte integer.&lt;/p&gt;
 
@@ -123,7 +124,7 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/bitcoin_overview.png&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;Bitcoin overview&lt;/figcaption&gt;
+&lt;figcaption&gt;Bitcoin overview, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;Bitcoin network is maintained by nodes.&lt;/p&gt;
 
@@ -166,7 +167,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/images/utxo.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;gaori&quot; /&gt;&lt;/p&gt;
-&lt;figcaption&gt;How UTXO set changes as transactions occur overtime&lt;/figcaption&gt;
+&lt;figcaption&gt;How UTXO set changes as transactions occur overtime, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;This is a brief summary of what happens when person X transfers 300 bitcoins to person Y.&lt;/p&gt;
 
