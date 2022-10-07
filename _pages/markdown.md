@@ -1,4 +1,6 @@
 ---
+layout: single
+permalink: /markdown
 ---
 
 This is an H1
@@ -112,5 +114,5 @@ __double underscores__
 
 ![Alt text](/assets/images/gaori.png)
 
-<img src="../../assets/images/gaori.png" height="300px" title="px(픽셀) 크기 설정" alt="gaori"/><br/>
+<img src="../../../assets/images/gaori.png" height="300px" title="px(픽셀) 크기 설정" alt="gaori"/><br/>
 

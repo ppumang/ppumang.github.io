@@ -1,9 +1,10 @@
 ---
 topic: bitcoin
+categories: blockchain
 ---
 > for simplicity, this article only deals with full node, P2PKH
 
-<img src="../assets/images/bitcoin_overview.png" />
+<img src="../../assets/images/bitcoin_overview.png" />
 <figcaption>Bitcoin overview, "bitcoin book"</figcaption>
 
 Bitcoin network is maintained by nodes.
@@ -47,7 +48,7 @@ Transfering a bitcoin from one address to another means to eventually generate a
 }
 ```
 
-<img src="../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori"/>
+<img src="../../assets/images/utxo.png" title="px(픽셀) 크기 설정" alt="gaori"/>
 <figcaption>How UTXO set changes as transactions occur overtime, "bitcoin book"</figcaption>
 
 

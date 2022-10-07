@@ -5,8 +5,8 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 16:43:30 +0900</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 16:43:30 +0900</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2022 19:04:28 +0900</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2022 19:04:28 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -51,9 +51,11 @@ Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty aga
 &lt;p&gt;In 2022-10-07, Ethereum’s block height is 15,694,029&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/Ethereum's-roadmap/</link>
-        <guid isPermaLink="true">/Ethereum's-roadmap/</guid>
+        <link>/blockchain/Ethereum's-roadmap/</link>
+        <guid isPermaLink="true">/blockchain/Ethereum's-roadmap/</guid>
         
+        
+        <category>blockchain</category>
         
       </item>
     
@@ -90,9 +92,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;&lt;em&gt;Note: Ethereum finalized ‘&lt;strong&gt;The Merge&lt;/strong&gt;’ at block #15,537,393 on September 15, 2022, at 1:42:42 EST. Which means that Ethereum has moved from PoW to PoS. Instead of mining, Ethereum will rely on stakers to secure the network.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/Ethereum's-components/</link>
-        <guid isPermaLink="true">/Ethereum's-components/</guid>
+        <link>/blockchain/Ethereum's-components/</link>
+        <guid isPermaLink="true">/blockchain/Ethereum's-components/</guid>
         
+        
+        <category>blockchain</category>
         
       </item>
     
@@ -127,9 +131,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;&lt;em&gt;To solve this problem, Ethereum introduced the concept of &lt;strong&gt;gas&lt;/strong&gt;. While running a smart contract, in each operations( computations, data access, etc. ), a pre-defined amount of gas is used. When sending transaction to trigger execution, a user has to set a &lt;strong&gt;gas limit&lt;/strong&gt;. If a gas used in execution exceeds the gas limit, the EVM will terminate the execution, leaving the state unchanged.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/How-is-Ethereum-different-from-Bitcoin/</link>
-        <guid isPermaLink="true">/How-is-Ethereum-different-from-Bitcoin/</guid>
+        <link>/blockchain/How-is-Ethereum-different-from-Bitcoin/</link>
+        <guid isPermaLink="true">/blockchain/How-is-Ethereum-different-from-Bitcoin/</guid>
         
+        
+        <category>blockchain</category>
         
       </item>
     
@@ -137,7 +143,7 @@ Ethereum has several interoperable implementations of the client software, the m
         <title>ppumang's dev blog - What happens if two independent blocks are created at the same time?</title>
         <description>&lt;p&gt;Every nodes should reach a consensus and save same transactions, same blocks.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/fork_consensus.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/fork_consensus.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;A bitcoin network that reached consensus, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;When mining bitcoin, if a mining block finds the correct nonce, it propagates a new block( block A ) to other nodes.&lt;/p&gt;
@@ -146,12 +152,12 @@ Ethereum has several interoperable implementations of the client software, the m
 
 &lt;p&gt;It takes time for a new block to propagate to every nodes. So, before it’s propagated to every node, another node that hasn’t received the new node might succeed in POW, and start propagating another new block( block B ).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/fork_conflict.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/fork_conflict.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;propagating to different blocks, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;In this case, some nodes receives block A before block B, while some nodes receives block B before block A. When this happens, a bitcoin network is &lt;strong&gt;forked&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/fork_conflict2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/fork_conflict2.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;A forked bitcoin network, &quot;bitcoin book&quot; &lt;/figcaption&gt;
 
 &lt;p&gt;Which block should be selected? block A or block B?&lt;/p&gt;
@@ -160,7 +166,7 @@ Ethereum has several interoperable implementations of the client software, the m
 
 &lt;p&gt;Let’s say a mining node succeeded POW, made new block ( block C ) on top of block A, and propagated it to other nodes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/fork_resolving.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/fork_resolving.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;Block C is mined and propagated, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more &lt;strong&gt;credible&lt;/strong&gt; then the other. So the node chooses blockchain with block A, and fork is resolved.&lt;/p&gt;
@@ -169,7 +175,7 @@ Ethereum has several interoperable implementations of the client software, the m
 
 &lt;p&gt;Conventionally, if a network is forked, a node chooses the longest one.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/fork_resolved.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/fork_resolved.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;Fork resolved, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;Although blockchain with block B is one height shorter then block A, it still has chance to become longer then blockchain with block A.&lt;/p&gt;
@@ -179,9 +185,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;So, if a block has more than 5 blocks on top of it, it’s considered &lt;strong&gt;safe&lt;/strong&gt;, meaning that it will not be defeated by another forked blockchain.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
-        <guid isPermaLink="true">/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
+        <link>/blockchain/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
+        <guid isPermaLink="true">/blockchain/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
         
+        
+        <category>blockchain</category>
         
       </item>
     
@@ -195,7 +203,7 @@ Ethereum has several interoperable implementations of the client software, the m
 
 &lt;p&gt;A user needs private key and public key to use bitcoin.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/t2_deterministic.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;deterministic wallets&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/t2_deterministic.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;deterministic wallets&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;Private key generating in Hierarchical Deterministic Wallets, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;A seed generates a master private key, and each private key can generate multiple child private key.&lt;/p&gt;
@@ -210,7 +218,7 @@ Ethereum has several interoperable implementations of the client software, the m
 
 &lt;p&gt;Bitcoin addresses and public keys are generated from private key by applying one way hash function.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/pvkey_pubkey_addr.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;private key to address&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;How public key and Bitcoin address is generated from private key, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;Private keys are generated as random 256byte integer.&lt;/p&gt;
@@ -218,9 +226,11 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160… and so on. We will cover the math inside it in future articles.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/How-are-bitcoin-wallets-made/</link>
-        <guid isPermaLink="true">/How-are-bitcoin-wallets-made/</guid>
+        <link>/blockchain/How-are-bitcoin-wallets-made/</link>
+        <guid isPermaLink="true">/blockchain/How-are-bitcoin-wallets-made/</guid>
         
+        
+        <category>blockchain</category>
         
       </item>
     
@@ -230,7 +240,7 @@ Ethereum has several interoperable implementations of the client software, the m
   &lt;p&gt;for simplicity, this article only deals with full node, P2PKH&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/bitcoin_overview.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/bitcoin_overview.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;Bitcoin overview, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;Bitcoin network is maintained by nodes.&lt;/p&gt;
@@ -273,7 +283,7 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/utxo.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;gaori&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/utxo.png&quot; title=&quot;px(픽셀) 크기 설정&quot; alt=&quot;gaori&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;How UTXO set changes as transactions occur overtime, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;This is a brief summary of what happens when person X transfers 300 bitcoins to person Y.&lt;/p&gt;
@@ -296,9 +306,11 @@ Ethereum has several interoperable implementations of the client software, the m
 This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/How-does-bitcoin-network-work/</link>
-        <guid isPermaLink="true">/How-does-bitcoin-network-work/</guid>
+        <link>/blockchain/How-does-bitcoin-network-work/</link>
+        <guid isPermaLink="true">/blockchain/How-does-bitcoin-network-work/</guid>
         
+        
+        <category>blockchain</category>
         
       </item>
     

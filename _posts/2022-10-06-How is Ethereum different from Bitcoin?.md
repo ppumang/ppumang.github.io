@@ -1,5 +1,6 @@
 ---
 topic: ethereum
+categories: blockchain
 ---
 
 > This article is scrapped from "Mastering Ethereum"

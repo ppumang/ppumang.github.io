@@ -12,3 +12,9 @@ main:
   #   url: /sitemap/
   # - title: "Posts"
   #   url: /posts
+
+sidebar-category:
+  - title: Blockchain
+    children:
+      - title: blockchain
+        url: blockchain

@@ -1,10 +1,11 @@
 ---
 topic: bitcoin
+categories: blockchain
 ---
 
 Every nodes should reach a consensus and save same transactions, same blocks.
 
-<img src="../assets/images/fork_consensus.png" />
+<img src="../../assets/images/fork_consensus.png" />
 <figcaption>A bitcoin network that reached consensus, "bitcoin book"</figcaption>
 
 
@@ -14,12 +15,12 @@ If a mining node receives a propagated block( block A ) before finding the nonce
 
 It takes time for a new block to propagate to every nodes. So, before it's propagated to every node, another node that hasn't received the new node might succeed in POW, and start propagating another new block( block B ).
 
-<img src="../assets/images/fork_conflict.png" />
+<img src="../../assets/images/fork_conflict.png" />
 <figcaption>propagating to different blocks, "bitcoin book"</figcaption>
 
 In this case, some nodes receives block A before block B, while some nodes receives block B before block A. When this happens, a bitcoin network is **forked**.
 
-<img src="../assets/images/fork_conflict2.png" />
+<img src="../../assets/images/fork_conflict2.png" />
 <figcaption>A forked bitcoin network, "bitcoin book" </figcaption>
 
 Which block should be selected? block A or block B?
@@ -28,7 +29,7 @@ Mining nodes doesn't care if the network is forked or not. They just keep mining
 
 Let's say a mining node succeeded POW, made new block ( block C ) on top of block A, and propagated it to other nodes.
 
-<img src="../assets/images/fork_resolving.png" />
+<img src="../../assets/images/fork_resolving.png" />
 <figcaption>Block C is mined and propagated, "bitcoin book"</figcaption>
 
 When a node receives block C lengthening block A, the blockchain with block A is longer than the blockchain with block B. This makes blockchain with block A more **credible** then the other. So the node chooses blockchain with block A, and fork is resolved.
@@ -37,7 +38,7 @@ Block that has not been chosen is called an **orphan block** or **stale block**.
 
 Conventionally, if a network is forked, a node chooses the longest one.
 
-<img src="../assets/images/fork_resolved.png" />
+<img src="../../assets/images/fork_resolved.png" />
 <figcaption>Fork resolved, "bitcoin book"</figcaption>
 
 Although blockchain with block B is one height shorter then block A, it still has chance to become longer then blockchain with block A.
