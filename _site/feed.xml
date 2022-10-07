@@ -5,9 +5,125 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 13:41:19 +0900</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 13:41:19 +0900</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2022 16:33:01 +0900</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2022 16:33:01 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ppumang's dev blog - Ethereum&apos;s roadmap</title>
+        <description>&lt;p&gt;Ethereum’s development was planned over four distinct stages.&lt;br /&gt;
+&lt;strong&gt;Frontier&lt;/strong&gt;, &lt;strong&gt;Homestead&lt;/strong&gt;, &lt;strong&gt;Metropolis&lt;/strong&gt;, and &lt;strong&gt;Serenity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Block #0
+&lt;strong&gt;Frontier&lt;/strong&gt; — The initial stage of Ethereum, lasting from July 30, 2015, to March 2016.&lt;/p&gt;
+
+&lt;p&gt;Block #200,000
+Ice Age — A hard fork to introduce an exponential difficulty increase, to motivate a transition to PoS when ready.&lt;/p&gt;
+
+&lt;p&gt;Block #1,150,000
+&lt;strong&gt;Homestead&lt;/strong&gt; — The second stage of Ethereum, launched in March 2016.&lt;/p&gt;
+
+&lt;p&gt;Block #1,192,000
+DAO — A hard fork that reimbursed victims of the hacked DAO contract and caused Ethereum and Ethereum Classic to split into two competing systems.&lt;/p&gt;
+
+&lt;p&gt;Block #2,463,000
+Tangerine Whistle — A hard fork to change the gas calculation for certain I/O-heavy operations and to clear the accumulated state from a denial-of-service (DoS) attack that exploited the low gas cost of those operations.&lt;/p&gt;
+
+&lt;p&gt;Block #2,675,000
+Spurious Dragon — A hard fork to address more DoS attack vectors, and another state clearing. Also, a replay attack protection mechanism.&lt;/p&gt;
+
+&lt;p&gt;Block #4,370,000
+&lt;strong&gt;Metropolis Byzantium&lt;/strong&gt; — Metropolis is the third stage of Ethereum. Launched in October 2017, Byzantium is the first part of Metropolis, adding low-level functionalities and adjusting the block reward and difficulty.&lt;/p&gt;
+
+&lt;p&gt;Block #7,280,000
+Constantinople / St. Petersburg — Constantinople was planned to be the second part of Metropolis with similar improvements. A few hours before its activation, a critical bug was discovered. The hard fork was therefore postponed and renamed St. Petersburg.&lt;/p&gt;
+
+&lt;p&gt;Block #9,069,000
+Istanbul — An additional hard fork with the same approach, and naming convention, as for the prior two.&lt;/p&gt;
+
+&lt;p&gt;Block #9,200,000
+Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty again due to the exponential increase introduced by Ice Age.&lt;/p&gt;
+
+&lt;p&gt;In 2022-10-07, Ethereum’s block height is 15,694,029&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
+        <link>/Ethereum's-roadmap/</link>
+        <guid isPermaLink="true">/Ethereum's-roadmap/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - Ethereum&apos;s components</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;P2P network&lt;/strong&gt; &lt;br /&gt;
+Ethereum runs on the Ethereum main network, which is addressable on TCP port 30303, and runs a protocol called ÐΞVp2p.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consensus rules&lt;/strong&gt; &lt;br /&gt;
+Ethereum’s consensus rules are defined in the reference specification, the &lt;strong&gt;&lt;a href=&quot;https://ethereum.github.io/yellowpaper/paper.pdf&quot;&gt;Yellow Paper&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Transactions&lt;/strong&gt;&lt;br /&gt;
+Ethereum transactions are network messages that include (among other things) a sender, recipient, value, and data payload.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;State machine&lt;/strong&gt;&lt;br /&gt;
+Ethereum state transitions are processed by the Ethereum Virtual Machine (EVM), a stack-based virtual machine that executes bytecode (machine-language instructions). EVM programs, called “smart contracts,” are written in high-level languages (e.g., Solidity) and compiled to bytecode for execution on the EVM.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data structures&lt;/strong&gt;&lt;br /&gt;
+Ethereum’s state is stored locally on each node as a database (usually Google’s LevelDB), which contains the transactions and system state in a serialized hashed data structure called a &lt;strong&gt;Merkle Patricia Tree&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consensus algorithm&lt;/strong&gt;&lt;br /&gt;
+Ethereum uses Bitcoin’s consensus model, Nakamoto Consensus, which uses sequential single-signature blocks, weighted in importance by PoW to determine the longest chain and therefore the current state. However, there are plans to move to a PoS weighted voting system, codenamed Casper, in the near future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Economic security&lt;/strong&gt;&lt;br /&gt;
+Ethereum currently uses a PoW algorithm called Ethash, but this will eventually be dropped with the move to PoS at some point in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clients&lt;/strong&gt;&lt;br /&gt;
+Ethereum has several interoperable implementations of the client software, the most prominent of which are Go-Ethereum (Geth) and Parity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Ethereum finalized ‘&lt;strong&gt;The Merge&lt;/strong&gt;’ at block #15,537,393 on September 15, 2022, at 1:42:42 EST. Which means that Ethereum has moved from PoW to PoS. Instead of mining, Ethereum will rely on stakers to secure the network.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
+        <link>/Ethereum's-components/</link>
+        <guid isPermaLink="true">/Ethereum's-components/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - How is ethereum different from bitcoin?</title>
+        <description>&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network.&lt;/p&gt;
+
+&lt;p&gt;While the digital currency &lt;strong&gt;ether&lt;/strong&gt; is intended as a &lt;strong&gt;utility currency&lt;/strong&gt; to pay for use of the Ethereum platform as the world computer.&lt;/p&gt;
+
+&lt;p&gt;Ethereum is designed to be a &lt;strong&gt;general-purpose programmable blockchain&lt;/strong&gt; that runs a virtual machine capable of executing code of arbitrary and unbounded complexity.&lt;/p&gt;
+
+&lt;p&gt;Ethereum’s language is &lt;strong&gt;Turing complete&lt;/strong&gt;, meaning that Ethereum can straightforwardly function as a general-purpose computer.&lt;/p&gt;
+
+&lt;p&gt;The Ethereum platform was designed to abstract detailed implementations of peer-to-peer networks, blockchains, consensus algorithms, etc… providing a deterministic and secure programming environment for decentralized blockchain applications.&lt;/p&gt;
+
+&lt;p&gt;While bitcoin keeps track of bitcoin’s ownership, ethereum tracks the &lt;strong&gt;state transition&lt;/strong&gt; of a general-purpose data store, which is stored in key-value tuple.&lt;/p&gt;
+
+&lt;p&gt;Ethereum can load code into its state machine and run that code, storing the resulting state changes in its blockchain.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;About Turing completeness&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Turing machine is a machine composed of memory, head, state and symbols. Head reads memory from left to right, performing jobs pre-determined by symbols, and overwrites the state in it’s position.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If a machine is Turing-complete, it means it can simulate any Turing machine.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Due to the fact that it can simulate any programs, Turing-complete machines can be stuck in infinite loops or computation that needs huge resoureces. And it is also proven that we cannot predict whether a program will end in finite time or not.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To solve this problem, Ethereum introduced the concept of &lt;strong&gt;gas&lt;/strong&gt;. While running a smart contract, in each operations( computations, data access, etc. ), a pre-defined amount of gas is used. When sending transaction to trigger execution, a user has to set a &lt;strong&gt;gas limit&lt;/strong&gt;. If a gas used in execution exceeds the gas limit, the EVM will terminate the execution, leaving the state unchanged.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Oct 2022 00:00:00 +0900</pubDate>
+        <link>/How-is-Ethereum-different-from-Bitcoin/</link>
+        <guid isPermaLink="true">/How-is-Ethereum-different-from-Bitcoin/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ppumang's dev blog - What happens if two independent blocks are created at the same time?</title>
@@ -57,23 +173,6 @@
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
         <link>/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</link>
         <guid isPermaLink="true">/What-happens-if-two-independent-blocks-are-created-at-the-same-time/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ppumang's dev blog - How is ethereum different from bitcoin?</title>
-        <description>&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network.&lt;/p&gt;
-
-&lt;p&gt;While the digital currency ether is both integral to and necessary for the operation of Ethereum, ether is intended as a &lt;strong&gt;utility currency&lt;/strong&gt; to pay for use of the &lt;strong&gt;Ethereum platform&lt;/strong&gt; as the world computer.&lt;/p&gt;
-
-&lt;p&gt;Ethereum is designed to be a &lt;strong&gt;general-purpose programmable blockchain&lt;/strong&gt; that runs a virtual machine capable of executing code of arbitrary and unbounded complexity.&lt;/p&gt;
-
-&lt;p&gt;Ethereum’s language is &lt;strong&gt;Turing complete&lt;/strong&gt;, meaning that Ethereum can straightforwardly function as a general-purpose computer.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
-        <link>/How-is-Ethereum-different-from-Bitcoin/</link>
-        <guid isPermaLink="true">/How-is-Ethereum-different-from-Bitcoin/</guid>
         
         
       </item>
