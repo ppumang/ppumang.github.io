@@ -2,6 +2,7 @@
 title: "blockchain"
 layout: archive
 permalink: /blockchain
+author_profile: true
 ---
 
 
