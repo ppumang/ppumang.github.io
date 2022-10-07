@@ -2,8 +2,6 @@
 categories: ethereum
 ---
 
-> This article is scrapped from "Mastering Ethereum"
-
 Ethereum’s development was planned over four distinct stages.  
 **Frontier**, **Homestead**, **Metropolis**, and **Serenity**
 
@@ -38,3 +36,5 @@ Block #9,200,000
 Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty again due to the exponential increase introduced by Ice Age.
 
 In 2022-10-07, Ethereum's block height is 15,694,029
+
+> This article is scrapped from "Mastering Ethereum"

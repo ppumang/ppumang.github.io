@@ -1,7 +1,6 @@
 ---
 categories: bitcoin
 ---
-> for simplicity, this article only deals with full node, P2PKH
 
 <img src="../../assets/images/bitcoin_overview.png" />
 <figcaption>Bitcoin overview, "bitcoin book"</figcaption>
@@ -67,3 +66,5 @@ This is a brief summary of what happens when person X transfers 300 bitcoins to 
 
 This process seems inefficient with all the iterations.
 This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles.
+
+> for simplicity, this article only deals with full node, P2PKH

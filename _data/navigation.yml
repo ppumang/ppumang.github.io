@@ -20,3 +20,7 @@ sidebar-category:
         url: bitcoin
       - title: ethereum
         url: ethereum
+  - title: Web
+    children:
+      - title: web
+        url: web

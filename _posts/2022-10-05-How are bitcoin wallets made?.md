@@ -1,7 +1,6 @@
 ---
 categories: bitcoin
 ---
-> For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered
 
 
 In Bitcoin, **wallet** is a software that manages **keys**.
@@ -31,3 +30,5 @@ Bitcoin addresses and public keys are generated from private key by applying one
 Private keys are generated as random 256byte integer.
 
 The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160... and so on. We will cover the math inside it in future articles.
+
+> For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered

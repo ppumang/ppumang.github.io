@@ -5,29 +5,29 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Oct 2022 00:50:32 +0900</pubDate>
-    <lastBuildDate>Sat, 08 Oct 2022 00:50:32 +0900</lastBuildDate>
+    <pubDate>Sat, 08 Oct 2022 01:07:39 +0900</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2022 01:07:39 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>ppumang's dev blog - Overview of the structure of website</title>
-        <description>&lt;p&gt;Everyday, we search through google, click the link of a website, and contents of the website just pops up.&lt;/p&gt;
+        <title>ppumang's dev blog - Overview of the architecture of website</title>
+        <description>&lt;p&gt;Everyday, we search through google, click the link of a website, and contents of the website just pop up.&lt;/p&gt;
 
 &lt;p&gt;This seems so obvious, but how does it actually work? We’ll go through details of how these web contents is delivered to us.&lt;/p&gt;
 
-&lt;p&gt;What we expect from a website is to access the database from a client(browser). To achieve this, there is a server running 24 hours a day, and it receives a http request from a client, access a database with TCP protocol, fetch data(or update, delete, create) and send it back to the client.&lt;/p&gt;
+&lt;p&gt;What we expect from a website is a view( fancy designs of a website ) which contains data(in the form of text, images, graphs… etc.) These data are present in a server. So, a client has to access server and fetch data. To achieve this, there should be a server running 24 hours a day, and it receives http request from a client, access a database with TCP protocol, fetch data(or update, delete, create) and send the result back to the client.&lt;/p&gt;
 
-&lt;p&gt;So, we the essense of a website is to manipulate database from client.&lt;/p&gt;
+&lt;p&gt;So, the essense of a website is to &lt;strong&gt;manipulate database from client(browser), through a server&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;A website is composed of three parts. &lt;strong&gt;Frontend&lt;/strong&gt;, &lt;strong&gt;backend&lt;/strong&gt; and &lt;strong&gt;database&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;frontend&quot;&gt;&lt;strong&gt;Frontend&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Draws content on browser&lt;/li&gt;
+  &lt;li&gt;Draws content on a browser&lt;/li&gt;
   &lt;li&gt;It can’t save data permanently. Instead, it draws screen based on html, css, javascript, images, and data it received from server&lt;/li&gt;
   &lt;li&gt;html - the content that we can see on a website ( text, boxes, textareas… etc. )&lt;/li&gt;
   &lt;li&gt;css - decorates and puts html elements on the right place. ( colors of text, position of boxes, background of website… etc. )&lt;/li&gt;
-  &lt;li&gt;javascript - gives functionality to website. ( sending forms to server when a button is pressed, fetching data by requesting http request to the server… etc. )&lt;/li&gt;
+  &lt;li&gt;javascript - gives functionality to website. ( sending form data to server when a button is pressed, fetching data by requesting http request to the server… etc. )&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;backend&quot;&gt;&lt;strong&gt;Backend&lt;/strong&gt;&lt;/h2&gt;
@@ -52,10 +52,13 @@
   &lt;li&gt;In-memory DB - redis, memcached, cassandra… etc.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;This post is for beginners and non-programmers, so strict definitions are ignored for the convinience of understanding&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 08 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/web/Overview-of-the-structure-of-website/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/web/Overview-of-the-structure-of-website/</guid>
+        <link>https://ppumang.github.io/web/Overview-of-the-architecture-of-website/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/web/Overview-of-the-architecture-of-website/</guid>
         
         
         <category>web</category>
@@ -64,11 +67,7 @@
     
       <item>
         <title>ppumang's dev blog - Ethereum&apos;s roadmap</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ethereum’s development was planned over four distinct stages.&lt;br /&gt;
+        <description>&lt;p&gt;Ethereum’s development was planned over four distinct stages.&lt;br /&gt;
 &lt;strong&gt;Frontier&lt;/strong&gt;, &lt;strong&gt;Homestead&lt;/strong&gt;, &lt;strong&gt;Metropolis&lt;/strong&gt;, and &lt;strong&gt;Serenity&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Block #0
@@ -102,6 +101,10 @@ Istanbul — An additional hard fork with the same approach, and naming conventi
 Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty again due to the exponential increase introduced by Ice Age.&lt;/p&gt;
 
 &lt;p&gt;In 2022-10-07, Ethereum’s block height is 15,694,029&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/ethereum/Ethereum's-roadmap/</link>
@@ -114,11 +117,7 @@ Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty aga
     
       <item>
         <title>ppumang's dev blog - Ethereum&apos;s components</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;P2P network&lt;/strong&gt; &lt;br /&gt;
+        <description>&lt;p&gt;&lt;strong&gt;P2P network&lt;/strong&gt; &lt;br /&gt;
 Ethereum runs on the Ethereum main network, which is addressable on TCP port 30303, and runs a protocol called ÐΞVp2p.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Consensus rules&lt;/strong&gt; &lt;br /&gt;
@@ -143,6 +142,10 @@ Ethereum currently uses a PoW algorithm called Ethash, but this will eventually 
 Ethereum has several interoperable implementations of the client software, the most prominent of which are Go-Ethereum (Geth) and Parity.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Note: Ethereum finalized ‘&lt;strong&gt;The Merge&lt;/strong&gt;’ at block #15,537,393 on September 15, 2022, at 1:42:42 EST. Which means that Ethereum has moved from PoW to PoS. Instead of mining, Ethereum will rely on stakers to secure the network.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/ethereum/Ethereum's-components/</link>
@@ -155,11 +158,7 @@ Ethereum has several interoperable implementations of the client software, the m
     
       <item>
         <title>ppumang's dev blog - How is ethereum different from bitcoin?</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network.&lt;/p&gt;
+        <description>&lt;p&gt;Ethereum’s purpose is not primarily to be a digital currency payment network.&lt;/p&gt;
 
 &lt;p&gt;While the digital currency &lt;strong&gt;ether&lt;/strong&gt; is intended as a &lt;strong&gt;utility currency&lt;/strong&gt; to pay for use of the Ethereum platform as the world computer.&lt;/p&gt;
 
@@ -182,6 +181,10 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;&lt;em&gt;Due to the fact that it can simulate any programs, Turing-complete machines can be stuck in infinite loops or computation that needs huge resoureces. And it is also proven that we cannot predict whether a program will end in finite time or not.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;To solve this problem, Ethereum introduced the concept of &lt;strong&gt;gas&lt;/strong&gt;. While running a smart contract, in each operations( computations, data access, etc. ), a pre-defined amount of gas is used. When sending transaction to trigger execution, a user has to set a &lt;strong&gt;gas limit&lt;/strong&gt;. If a gas used in execution exceeds the gas limit, the EVM will terminate the execution, leaving the state unchanged.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 06 Oct 2022 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/ethereum/How-is-Ethereum-different-from-Bitcoin/</link>
@@ -248,11 +251,7 @@ Ethereum has several interoperable implementations of the client software, the m
     
       <item>
         <title>ppumang's dev blog - How are bitcoin wallets made?</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In Bitcoin, &lt;strong&gt;wallet&lt;/strong&gt; is a software that manages &lt;strong&gt;keys&lt;/strong&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;In Bitcoin, &lt;strong&gt;wallet&lt;/strong&gt; is a software that manages &lt;strong&gt;keys&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;A user needs private key and public key to use bitcoin.&lt;/p&gt;
 
@@ -277,6 +276,10 @@ Ethereum has several interoperable implementations of the client software, the m
 &lt;p&gt;Private keys are generated as random 256byte integer.&lt;/p&gt;
 
 &lt;p&gt;The one way hash functions bitcoin uses for encryptions includes Elliptic Curve Cryptography, modular prime number p operation, SHA-256, RIPEMD160… and so on. We will cover the math inside it in future articles.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For simplicity, only Type 2 Hierarchical Deterministic Wallets are considered&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 05 Oct 2022 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/bitcoin/How-are-bitcoin-wallets-made/</link>
@@ -289,11 +292,7 @@ Ethereum has several interoperable implementations of the client software, the m
     
       <item>
         <title>ppumang's dev blog - How does bitcoin network work?</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;for simplicity, this article only deals with full node, P2PKH&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/bitcoin_overview.png&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;../../assets/images/bitcoin_overview.png&quot; /&gt;&lt;/p&gt;
 &lt;figcaption&gt;Bitcoin overview, &quot;bitcoin book&quot;&lt;/figcaption&gt;
 
 &lt;p&gt;Bitcoin network is maintained by nodes.&lt;/p&gt;
@@ -357,6 +356,10 @@ Ethereum has several interoperable implementations of the client software, the m
 
 &lt;p&gt;This process seems inefficient with all the iterations.
 This inefficiency is a result of trade-off with decentralization, but in some level, this inefficiency can be reduced by using caches and data structures, which we will cover in future articles.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;for simplicity, this article only deals with full node, P2PKH&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/bitcoin/How-does-bitcoin-network-work/</link>

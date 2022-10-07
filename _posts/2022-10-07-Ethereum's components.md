@@ -2,8 +2,6 @@
 categories: ethereum
 ---
 
-> This article is scrapped from "Mastering Ethereum"
-
 **P2P network**   
 Ethereum runs on the Ethereum main network, which is addressable on TCP port 30303, and runs a protocol called ÐΞVp2p.
 
@@ -31,3 +29,5 @@ Ethereum currently uses a PoW algorithm called Ethash, but this will eventually 
 Ethereum has several interoperable implementations of the client software, the most prominent of which are Go-Ethereum (Geth) and Parity.
 
 _Note: Ethereum finalized '**The Merge**' at block #15,537,393 on September 15, 2022, at 1:42:42 EST. Which means that Ethereum has moved from PoW to PoS. Instead of mining, Ethereum will rely on stakers to secure the network._
+
+> This article is scrapped from "Mastering Ethereum"
