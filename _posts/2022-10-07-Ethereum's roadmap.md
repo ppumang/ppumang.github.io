@@ -2,6 +2,8 @@
 topic: ethereum
 ---
 
+> This article is scrapped from "Mastering Ethereum"
+
 Ethereum’s development was planned over four distinct stages.  
 **Frontier**, **Homestead**, **Metropolis**, and **Serenity**
 

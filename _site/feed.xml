@@ -5,13 +5,17 @@
     <description>blockchain, web, machine learning</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 16:33:01 +0900</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 16:33:01 +0900</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2022 16:42:15 +0900</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2022 16:42:15 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>ppumang's dev blog - Ethereum&apos;s roadmap</title>
-        <description>&lt;p&gt;Ethereum’s development was planned over four distinct stages.&lt;br /&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ethereum’s development was planned over four distinct stages.&lt;br /&gt;
 &lt;strong&gt;Frontier&lt;/strong&gt;, &lt;strong&gt;Homestead&lt;/strong&gt;, &lt;strong&gt;Metropolis&lt;/strong&gt;, and &lt;strong&gt;Serenity&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Block #0
