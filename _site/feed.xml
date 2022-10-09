@@ -5,20 +5,27 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2022 01:05:56 +0900</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2022 01:05:56 +0900</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2022 01:30:59 +0900</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2022 01:30:59 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>ppumang's dev blog - What are column space, null space and rank?</title>
+        <title>ppumang's dev blog - Intuitive understanding of column space, null space and rank</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;A matrix’s column space : span of it’s column vectors. Geometrically, it can also be seen as &lt;strong&gt;span of &lt;em&gt;changed basis&lt;/em&gt;&lt;/strong&gt;, because A changes the &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo mathvariant=&quot;normal&quot; lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;i&amp;#x27;th&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;h&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; basis into it’s &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo mathvariant=&quot;normal&quot; lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;i&amp;#x27;th&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;h&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; column.&lt;/p&gt;
+  &lt;p&gt;Column space of matrix &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; : span of matrix &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;’s column vectors. Intuitively, it can also be seen as &lt;strong&gt;span of &lt;em&gt;changed basis&lt;/em&gt;&lt;/strong&gt;, because &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; changes the &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo mathvariant=&quot;normal&quot; lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;i&amp;#x27;th&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;h&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; basis into it’s &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo mathvariant=&quot;normal&quot; lspace=&quot;0em&quot; rspace=&quot;0em&quot;&gt;′&lt;/mo&gt;&lt;/msup&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;i&amp;#x27;th&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.7519em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;′&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;h&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; column.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Null space(kernel) of matrix &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; : linear subspace of the domain of the map which is mapped to the zero vector. As &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; can be seen as linear transformation, vector in &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;’s nullspace squeezes to zero when transformed by &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rank of matrix &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; : the definition of rank is the dimension of vectorspace generated by columns of &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;. Intuitively, if &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; squeezes &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;m&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.4306em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;m&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;-dimensional space into &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;n&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.4306em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;-dimensional space, &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;n&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.4306em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; is the rank of &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 09 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/linear-algebra/What-are-Column-space,-Null-space-and-Rank/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/linear-algebra/What-are-Column-space,-Null-space-and-Rank/</guid>
+        <link>https://ppumang.github.io/linear-algebra/Intuitive-understanding-of-Column-space,-Null-space-and-Rank/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/linear-algebra/Intuitive-understanding-of-Column-space,-Null-space-and-Rank/</guid>
         
         
         <category>linear-algebra</category>
@@ -26,7 +33,7 @@
       </item>
     
       <item>
-        <title>ppumang's dev blog - What does it mean to multiply a matrix?</title>
+        <title>ppumang's dev blog - Intuitive understanding of multiplying a matrix</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;Multiplying matrices can be seen as change of basis 
 from original basis &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\hat i \ \hat j&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.1174em;vertical-align:-0.1944em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord accent&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.923em;&quot;&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.2285em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;accent-body&quot; style=&quot;left:-0.25em;&quot;&gt;&lt;span class=&quot;mord&quot;&gt;^&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mord accent&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.923em;&quot;&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.05724em;&quot;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.2285em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;accent-body&quot; style=&quot;left:-0.25em;&quot;&gt;&lt;span class=&quot;mord&quot;&gt;^&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.1944em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; to new basis
@@ -110,8 +117,8 @@ a_{21} &amp;amp; a_{22}
 &lt;p&gt;if &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;n = 3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.4306em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; and &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;m = 1&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.4306em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, generally, multiplying &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;A&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; puts a scalar into &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;-dimensional space.&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/linear-algebra/What-does-it-mean-to-multiply-a-matrix/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/linear-algebra/What-does-it-mean-to-multiply-a-matrix/</guid>
+        <link>https://ppumang.github.io/linear-algebra/Intuitive-understanding-of-multiplying-a-matrix/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/linear-algebra/Intuitive-understanding-of-multiplying-a-matrix/</guid>
         
         
         <category>linear-algebra</category>
@@ -153,56 +160,6 @@ Ethereum has several interoperable implementations of the client software, the m
         <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/ethereum/What-are-the-components-of-Ethereum-ecosystem/</link>
         <guid isPermaLink="true">https://ppumang.github.io/ethereum/What-are-the-components-of-Ethereum-ecosystem/</guid>
-        
-        
-        <category>ethereum</category>
-        
-      </item>
-    
-      <item>
-        <title>ppumang's dev blog - What are ethereum&apos;s development stages?</title>
-        <description>&lt;p&gt;Ethereum’s development was planned over four distinct stages.&lt;br /&gt;
-&lt;strong&gt;Frontier&lt;/strong&gt;, &lt;strong&gt;Homestead&lt;/strong&gt;, &lt;strong&gt;Metropolis&lt;/strong&gt;, and &lt;strong&gt;Serenity&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Block #0
-&lt;strong&gt;Frontier&lt;/strong&gt; — The initial stage of Ethereum, lasting from July 30, 2015, to March 2016.&lt;/p&gt;
-
-&lt;p&gt;Block #200,000
-Ice Age — A hard fork to introduce an exponential difficulty increase, to motivate a transition to PoS when ready.&lt;/p&gt;
-
-&lt;p&gt;Block #1,150,000
-&lt;strong&gt;Homestead&lt;/strong&gt; — The second stage of Ethereum, launched in March 2016.&lt;/p&gt;
-
-&lt;p&gt;Block #1,192,000
-DAO — A hard fork that reimbursed victims of the hacked DAO contract and caused Ethereum and Ethereum Classic to split into two competing systems.&lt;/p&gt;
-
-&lt;p&gt;Block #2,463,000
-Tangerine Whistle — A hard fork to change the gas calculation for certain I/O-heavy operations and to clear the accumulated state from a denial-of-service (DoS) attack that exploited the low gas cost of those operations.&lt;/p&gt;
-
-&lt;p&gt;Block #2,675,000
-Spurious Dragon — A hard fork to address more DoS attack vectors, and another state clearing. Also, a replay attack protection mechanism.&lt;/p&gt;
-
-&lt;p&gt;Block #4,370,000
-&lt;strong&gt;Metropolis Byzantium&lt;/strong&gt; — Metropolis is the third stage of Ethereum. Launched in October 2017, Byzantium is the first part of Metropolis, adding low-level functionalities and adjusting the block reward and difficulty.&lt;/p&gt;
-
-&lt;p&gt;Block #7,280,000
-Constantinople / St. Petersburg — Constantinople was planned to be the second part of Metropolis with similar improvements. A few hours before its activation, a critical bug was discovered. The hard fork was therefore postponed and renamed St. Petersburg.&lt;/p&gt;
-
-&lt;p&gt;Block #9,069,000
-Istanbul — An additional hard fork with the same approach, and naming convention, as for the prior two.&lt;/p&gt;
-
-&lt;p&gt;Block #9,200,000
-Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty again due to the exponential increase introduced by Ice Age.&lt;/p&gt;
-
-&lt;p&gt;In 2022-10-07, Ethereum’s block height is 15,694,029&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/ethereum/What-are-Ethereum's-development-stages/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/ethereum/What-are-Ethereum's-development-stages/</guid>
         
         
         <category>ethereum</category>
@@ -262,6 +219,56 @@ Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty aga
         
         
         <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - Ethereum&apos;s development stages</title>
+        <description>&lt;p&gt;Ethereum’s development was planned over four distinct stages.&lt;br /&gt;
+&lt;strong&gt;Frontier&lt;/strong&gt;, &lt;strong&gt;Homestead&lt;/strong&gt;, &lt;strong&gt;Metropolis&lt;/strong&gt;, and &lt;strong&gt;Serenity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Block #0
+&lt;strong&gt;Frontier&lt;/strong&gt; — The initial stage of Ethereum, lasting from July 30, 2015, to March 2016.&lt;/p&gt;
+
+&lt;p&gt;Block #200,000
+Ice Age — A hard fork to introduce an exponential difficulty increase, to motivate a transition to PoS when ready.&lt;/p&gt;
+
+&lt;p&gt;Block #1,150,000
+&lt;strong&gt;Homestead&lt;/strong&gt; — The second stage of Ethereum, launched in March 2016.&lt;/p&gt;
+
+&lt;p&gt;Block #1,192,000
+DAO — A hard fork that reimbursed victims of the hacked DAO contract and caused Ethereum and Ethereum Classic to split into two competing systems.&lt;/p&gt;
+
+&lt;p&gt;Block #2,463,000
+Tangerine Whistle — A hard fork to change the gas calculation for certain I/O-heavy operations and to clear the accumulated state from a denial-of-service (DoS) attack that exploited the low gas cost of those operations.&lt;/p&gt;
+
+&lt;p&gt;Block #2,675,000
+Spurious Dragon — A hard fork to address more DoS attack vectors, and another state clearing. Also, a replay attack protection mechanism.&lt;/p&gt;
+
+&lt;p&gt;Block #4,370,000
+&lt;strong&gt;Metropolis Byzantium&lt;/strong&gt; — Metropolis is the third stage of Ethereum. Launched in October 2017, Byzantium is the first part of Metropolis, adding low-level functionalities and adjusting the block reward and difficulty.&lt;/p&gt;
+
+&lt;p&gt;Block #7,280,000
+Constantinople / St. Petersburg — Constantinople was planned to be the second part of Metropolis with similar improvements. A few hours before its activation, a critical bug was discovered. The hard fork was therefore postponed and renamed St. Petersburg.&lt;/p&gt;
+
+&lt;p&gt;Block #9,069,000
+Istanbul — An additional hard fork with the same approach, and naming convention, as for the prior two.&lt;/p&gt;
+
+&lt;p&gt;Block #9,200,000
+Muir Glacier — A hard fork whose sole purpose was to adjust the difficulty again due to the exponential increase introduced by Ice Age.&lt;/p&gt;
+
+&lt;p&gt;In 2022-10-07, Ethereum’s block height is 15,694,029&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This article is scrapped from “Mastering Ethereum”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 07 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/ethereum/Ethereum's-development-stages/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/ethereum/Ethereum's-development-stages/</guid>
+        
+        
+        <category>ethereum</category>
         
       </item>
     
