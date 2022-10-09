@@ -66,7 +66,7 @@ b_{21} & b_{22}
 $$
 
 $$
-BA = B \times 
+BAI = BA = B \times 
 \begin{bmatrix}
 a_{11} & a_{12} \\
 a_{21} & a_{22}
