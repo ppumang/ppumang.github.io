@@ -64,6 +64,7 @@ b_{11} & b_{12} \\
 b_{21} & b_{22}
 \end{bmatrix} \quad 
 $$
+   
 
 $$
 BAI = BA = B \times 
@@ -75,4 +76,8 @@ a_{21} & a_{22}
    B \begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix} & 
    B \begin{bmatrix} a_{12} \\ a_{22} \end{bmatrix}
 \end{array}\right]
+$$
+        
+$$
+BAx = x_1 \times B \begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix} + x_2 \times B \begin{bmatrix} a_{12} \\ a_{22} \end{bmatrix}
 $$
