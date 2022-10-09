@@ -14,13 +14,25 @@ main:
   #   url: /posts
 
 sidebar-category:
-  - title: Blockchain
+  - title: engineering
     children:
       - title: bitcoin
         url: bitcoin
       - title: ethereum
         url: ethereum
-  - title: Web
-    children:
       - title: web
         url: web
+      - title: deep-learning
+        url: deep-learning
+  - title: math
+    children:
+      - title: linear-algebra
+        url: linear-algebra
+  - title: startup
+    children:
+      - title: market
+        url: market
+      - title: team
+        url: team
+      - title: product
+        url: product
