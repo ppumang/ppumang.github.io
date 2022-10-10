@@ -3,16 +3,6 @@ categories: linear-algebra
 ---
 
 > Multiplying matrices can be seen as change of basis 
-> from original basis $$\hat i \ \hat j$$ to new basis
-$$\begin{bmatrix}
-a_{11} \\
-a_{21}
-\end{bmatrix}
-\
-\begin{bmatrix}
-a_{12} \\
-a_{22}
-\end{bmatrix}$$
 
 $$A = \begin{bmatrix}
 a_{11} & a_{12} \\
@@ -74,8 +64,8 @@ $$ A \in \mathbb{R}^{n\times m} \quad x \in \mathbb{R}^m $$
 
 if $$ n < m $$, then $$A$$ squeezes $$m$$-dimensional vector in to $$n$$-dimensinal vector
 
-else if $$ n > m $$, $$A$$ puts $$m$$-dimensional space in $$n$$-dimensional space
-
 if $$ n = 1 $$ and $$ m = 3 $$, multiplying $$A$$ squeezes $$3$$-dimensional vector into scalar. Generally, in this case, a plane squeezes into a scalar.
+
+else if $$ n > m $$, $$A$$ puts $$m$$-dimensional space in $$n$$-dimensional space
 
 if $$ n = 3 $$ and $$ m = 1 $$, generally, multiplying $$A$$ puts a scalar into $$3$$-dimensional space.

@@ -26,7 +26,7 @@ Let $$ p_1 $$ be the projection from $$\begin{bmatrix} 1 \\ 0 \end{bmatrix}$$ to
 
 Then $$ \overline{Op_1} = u_1 $$ and $$ \overline{Op_2} = u_2 $$ due to similarity.
 
-This means that a projection can also be seen as the $$length$$ of a projection vetor.
+This means that a projection can also be seen as the $$length$$ of a projection vetor. (specifically, it's the _signed length_, but let's not think about that right now.)
 
 Lets get back to the projection 
 $$
