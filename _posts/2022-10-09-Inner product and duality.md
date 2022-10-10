@@ -29,6 +29,7 @@ Then $$ \overline{Op_1} = u_1 $$ and $$ \overline{Op_2} = u_2 $$ due to similari
 This means that a projection can also be seen as the $$length$$ of a projection vetor. (specifically, it's the _signed length_, but let's not think about that right now.)
 
 Lets get back to the projection 
+
 $$
 xy = x^Ty = \begin{bmatrix} x_1 x_2 \end{bmatrix} \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} = x_1y_1 + x_2y_2
 $$.

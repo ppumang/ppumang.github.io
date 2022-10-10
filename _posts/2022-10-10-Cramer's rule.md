@@ -8,7 +8,7 @@ $$Ax = b$$
 
 As seen in [Determinant][determinant_link], determinants can be viewed as area(or volume) of a matrix.
 
-let $$x = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}, \: b = \begin{bmatrix} b_1 \\ b_2 \end{bmatrix}$$
+$$x = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}, \: b = \begin{bmatrix} b_1 \\ b_2 \end{bmatrix}$$
 
 $$det( \begin{bmatrix} 1 & x_1 \\ 0 & x_2 \end{bmatrix} ) = Area(\begin{bmatrix} 1 & x_1 \\ 0 & x_2 \end{bmatrix}) = x_2 $$
 
