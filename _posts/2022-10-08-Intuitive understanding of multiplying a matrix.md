@@ -70,7 +70,7 @@ $$BAx = x_1 \times B \begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix} + x_2 \times
 
 > If $$A$$ is non-squared, it transforms a vector to another dimension.
 
-$$ A \in \R^{n\times m} \quad x \in \R^m $$
+$$ A \in \mathbb{R}^{n\times m} \quad x \in \mathbb{R}^m $$
 
 if $$ n < m $$, then $$A$$ squeezes $$m$$-dimensional vector in to $$n$$-dimensinal vector
 
