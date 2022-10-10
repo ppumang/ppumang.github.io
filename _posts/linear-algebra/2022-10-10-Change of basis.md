@@ -15,10 +15,10 @@ $$\begin{bmatrix} a_{12} \\ a_{22} \end{bmatrix}_{\mathbb{R}} = \begin{bmatrix} 
 
 
 
-In $$\mathbb{R}$$, $$90\degree$$ rotation of $$\begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix}_{\mathbb{R}}=\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}_{\mathbb{R}} \begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix}_{\mathbb{R}}$$
+In $$\mathbb{R}$$, $$90^\circ$$ rotation of $$\begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix}_{\mathbb{R}}=\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}_{\mathbb{R}} \begin{bmatrix} a_{11} \\ a_{21} \end{bmatrix}_{\mathbb{R}}$$
 
 
-In $$\mathbb{A}$$, $$90\degree$$ rotation of 
+In $$\mathbb{A}$$, $$90^\circ$$ rotation of 
 $$\begin{bmatrix} 1 \\ 0 \end{bmatrix}_{\mathbb{A}}
 =\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}^{-1} 
 \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} 
