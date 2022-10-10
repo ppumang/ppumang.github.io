@@ -39,7 +39,7 @@ A \begin{bmatrix} 1 \\ 0 \end{bmatrix} &
 \begin{bmatrix} b_1 \\ b_2 \end{bmatrix}
 \end{array}\right] )
 $$
- is matrix $$A$$, replaced it's $$2th$$ column with $$b$$.
+ is matrix $$A$$, with it's $$2nd$$ column replaced by $$b$$.
 
 
 Similarly,
