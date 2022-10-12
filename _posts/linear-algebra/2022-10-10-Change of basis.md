@@ -1,5 +1,5 @@
 ---
-categories: linear-algebra
+category: linear algebra
 ---
 
 As we saw in [Intuitive understanding of multiplying a matrix][matmul_link], matrix multiplication can be seen as change of basis, preserving a vector's coefficients.
@@ -30,4 +30,4 @@ So, if you want to perform linear transformation $$P_{\mathbb{R}}$$ to $$ \begin
 
 $$ A^{-1}PA \begin{bmatrix} x \\ y \end{bmatrix} $$
 
-[matmul_link]: https://ppumang.github.io/linear-algebra/Intuitive-understanding-of-multiplying-a-matrix
+[matmul_link]: https://ppumang.github.io/linear algebra/Intuitive-understanding-of-multiplying-a-matrix

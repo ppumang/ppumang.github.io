@@ -1,5 +1,5 @@
 ---
-categories: linear-algebra
+category: linear algebra
 ---
 
 > Multiplying matrices can be seen as change of basis 

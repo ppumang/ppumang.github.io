@@ -1,5 +1,5 @@
 ---
-categories: web
+category: web
 ---
 
 Everyday, we search through google, click the link of a website, and contents of the website just pop up.

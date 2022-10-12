@@ -1,5 +1,5 @@
 ---
-categories: bitcoin
+category: bitcoin
 ---
 
 

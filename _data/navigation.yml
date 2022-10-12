@@ -22,16 +22,16 @@ sidebar-category:
         url: ethereum
       - title: web
         url: web
-      - title: deep-learning
-        url: deep-learning
+      - title: deep learning
+        url: deep learning
   - title: math
     children:
-      - title: linear-algebra
-        url: linear-algebra
+      - title: linear algebra
+        url: linear algebra
   - title: startup
     children:
-      - title: startup
-        url: startup
+      - title: how to start a startup
+        url: how to start a startup
   - title: etc
     children:
       - title: etc

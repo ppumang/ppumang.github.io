@@ -1,5 +1,5 @@
 ---
-categories: ethereum
+category: ethereum
 ---
 
 **P2P network**   

@@ -1,5 +1,5 @@
 ---
-categories: linear-algebra
+category: linear algebra
 ---
 
 Cramer's rule is used when solving the system
@@ -63,4 +63,4 @@ a_{n1} & \cdots & b_n & \cdots & a_{nn}
 \end{bmatrix}
 $$
 
-[determinant_link]: https://ppumang.github.io/linear-algebra/Determinant "Go google"
+[determinant_link]: https://ppumang.github.io/linear algebra/Determinant "Go google"

@@ -1,5 +1,5 @@
 ---
-categories: linear-algebra
+category: linear algebra
 ---
 
 $$Ax = \lambda x$$

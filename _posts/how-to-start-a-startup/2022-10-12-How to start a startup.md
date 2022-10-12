@@ -1,5 +1,6 @@
 ---
-categories: startup
+# categories: "how to start a startup"
+category: "how to start a startup"
 ---
 > How to start a startup?
 

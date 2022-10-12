@@ -1,5 +1,5 @@
 ---
-categories: bitcoin
+category: bitcoin
 ---
 
 <img src="../../assets/images/bitcoin_overview.png" />

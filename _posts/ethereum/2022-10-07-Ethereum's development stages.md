@@ -1,5 +1,5 @@
 ---
-categories: ethereum
+category: ethereum
 ---
 
 Ethereum’s development was planned over four distinct stages.  

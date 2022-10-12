@@ -1,5 +1,5 @@
 ---
-categories: ethereum
+category: ethereum
 ---
 
 Ethereum’s purpose is not primarily to be a digital currency payment network. 
