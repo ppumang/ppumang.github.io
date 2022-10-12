@@ -5,9 +5,76 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2022 01:35:13 +0900</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2022 01:35:13 +0900</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2022 20:31:27 +0900</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2022 20:31:27 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ppumang's dev blog - Thoughts</title>
+        <description>&lt;p&gt;2022-10-12&lt;/p&gt;
+
+&lt;p&gt;이윤은 남들이 가지지 못했지만 나는 많이 가진 것을 팔 때 생긴다&lt;/p&gt;
+
+&lt;p&gt;지금 학생인 내가 많이 가질 수 있는 건 크롤링을 통한 데이터. 그것을 분석하여 얻은 정보를 활용하는 것이 지금 할 수 있는 일인 것 같다.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/etc/thoughts/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/etc/thoughts/</guid>
+        
+        
+        <category>etc</category>
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - How to start a startup</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;How to start a startup?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Idea&lt;/li&gt;
+  &lt;li&gt;Product&lt;/li&gt;
+  &lt;li&gt;Team&lt;/li&gt;
+  &lt;li&gt;Execution&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Good execution is much harder then good idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Idea&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ideas should be &lt;strong&gt;Mission-driven&lt;/strong&gt;. Then you will be able to persuade other people ( your team and investors )&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Start in a small market&lt;/strong&gt;, and expand quickly.&lt;/li&gt;
+  &lt;li&gt;Consider the &lt;strong&gt;future size of the market&lt;/strong&gt;, not only the current size of the market. You can change everything in a startup but market. What good for being a student is that you can anticipate which market will grow really fast.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Why now&lt;/strong&gt; this idea, this particular time, this particular startup?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Talk to your customers&lt;/strong&gt; for the first version.&lt;/li&gt;
+  &lt;li&gt;You should describe your service in &lt;strong&gt;one sentence&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Meet your potential &lt;strong&gt;cofounders&lt;/strong&gt; while you are a student. This is more important then building a startup&lt;/li&gt;
+  &lt;li&gt;Think first about the &lt;strong&gt;market&lt;/strong&gt;, demand of market.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Product&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Before your startup have a &lt;strong&gt;great product&lt;/strong&gt;, nothing else is important.&lt;/li&gt;
+  &lt;li&gt;If your users &lt;em&gt;like&lt;/em&gt; your product, your company will fail. Your users should &lt;strong&gt;love&lt;/strong&gt; your product. It’s more important to build a product that small number of people &lt;strong&gt;love&lt;/strong&gt;, then a product that many people &lt;em&gt;like&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Thinking of growth before having a product that people LOVE, you’ll probably end up losing your resources.&lt;/li&gt;
+  &lt;li&gt;Building a good product is hard. &lt;strong&gt;Target small users&lt;/strong&gt;, but it should be loved.&lt;/li&gt;
+  &lt;li&gt;Don’t use ads for initial users. Find potential users manually, recruit them by your hands. &lt;strong&gt;Organic&lt;/strong&gt; is important.&lt;/li&gt;
+  &lt;li&gt;Use a &lt;strong&gt;feedback cycle&lt;/strong&gt;. Get user feedbaack, use them for product decisions( What do they like? What would they pay for? What would make them recommend it? ), and get user feedback again.&lt;/li&gt;
+  &lt;li&gt;Focus on growth, then anything else.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;If you don’t achieve above, &lt;strong&gt;ANYTHING&lt;/strong&gt; matters. So, in your early stage, just keep working on great idea, and great product.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/startup/How-to-start-a-startup/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/startup/How-to-start-a-startup/</guid>
+        
+        
+        <category>startup</category>
+        
+      </item>
     
       <item>
         <title>ppumang's dev blog - Eigenvector , eigenvalue and eigenbasis</title>

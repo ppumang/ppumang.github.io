@@ -30,9 +30,9 @@ sidebar-category:
         url: linear-algebra
   - title: startup
     children:
-      - title: market
-        url: market
-      - title: team
-        url: team
-      - title: product
-        url: product
+      - title: startup
+        url: startup
+  - title: etc
+    children:
+      - title: etc
+        url: etc
