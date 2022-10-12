@@ -5,26 +5,9 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2022 20:33:58 +0900</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2022 20:33:58 +0900</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2022 20:35:02 +0900</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2022 20:35:02 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
-    
-      <item>
-        <title>ppumang's dev blog - Thoughts</title>
-        <description>&lt;p&gt;2022-10-12&lt;/p&gt;
-
-&lt;p&gt;이윤은 남들이 가지지 못했지만 나는 많이 가진 것을 팔 때 생긴다&lt;/p&gt;
-
-&lt;p&gt;지금 학생인 내가 많이 가질 수 있는 건 크롤링을 통한 데이터. 그것을 분석하여 얻은 정보를 활용하는 것이 지금 할 수 있는 일인 것 같다.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/etc/thoughts/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/etc/thoughts/</guid>
-        
-        
-        <category>etc</category>
-        
-      </item>
     
       <item>
         <title>ppumang's dev blog - 1. how to start a startup</title>
@@ -833,6 +816,23 @@ This inefficiency is a result of trade-off with decentralization, but in some le
         
         
         <category>bitcoin</category>
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - Thoughts</title>
+        <description>&lt;p&gt;2022-10-12&lt;/p&gt;
+
+&lt;p&gt;이윤은 남들이 가지지 못했지만 나는 많이 가진 것을 팔 때 생긴다&lt;/p&gt;
+
+&lt;p&gt;지금 학생인 내가 많이 가질 수 있는 건 크롤링을 통한 데이터. 그것을 분석하여 얻은 정보를 활용하는 것이 지금 할 수 있는 일인 것 같다.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Oct 1000 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/etc/thoughts/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/etc/thoughts/</guid>
+        
+        
+        <category>etc</category>
         
       </item>
     
