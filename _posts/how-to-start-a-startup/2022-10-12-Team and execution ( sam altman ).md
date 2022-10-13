@@ -56,6 +56,7 @@ category: "how to start a startup"
     - Bias towards action. Great founders sticks to small things, but move quickly and get things done quickly. **Every time you talk to them, they've gotten new things done.** For this, you need to break it down into smaller projects.
 
 > **Always keep momentum. Keep growing**. Vision is no use before winning. Before that, focus on your product and win in the market. Sales fix everything.
+
 - The best way to keep momentum is to set an operating rhythm.
     - Shipping product
     - Launching new features
