@@ -14,7 +14,7 @@ Good execution is much harder then good idea.
 **1. Idea**
 - Ideas should be **Mission-driven**. Then you will be able to persuade other people ( your team and investors )
 - **Start in a small market**, and expand quickly.
-- Consider the **future size of the market**, not only the current size of the market. You can change everything in a startup but market. What good for being a student is that you can anticipate which market will grow really fast.
+- Consider the **future size of the market**, not only the current size of the market. You can change everything in a startup but market. What good for being a student is that you can anticipate which market will grow really fast, because what you and your friends use will become a future. (metaverse??)
 - **Why now** this idea, this particular time, this particular startup?
 - **Talk to your customers** for the first version.
 - You should describe your service in **one sentence**.

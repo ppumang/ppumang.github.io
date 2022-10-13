@@ -5,12 +5,117 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2022 22:46:41 +0900</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2022 22:46:41 +0900</lastBuildDate>
+    <pubDate>Thu, 13 Oct 2022 10:51:30 +0900</pubDate>
+    <lastBuildDate>Thu, 13 Oct 2022 10:51:30 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>ppumang's dev blog - How to start a startup</title>
+        <title>ppumang's dev blog - Team and execution ( sam altman )</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Team and execution&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Team&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Choosing a cofounder randomly is really really bad.&lt;/li&gt;
+  &lt;li&gt;Almost every successful companies are built by cofounders.&lt;/li&gt;
+  &lt;li&gt;Cofounder has to be &lt;strong&gt;tough and calm&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Try &lt;strong&gt;not to hire&lt;/strong&gt;. Only hire when you are desperate.&lt;/li&gt;
+  &lt;li&gt;Before hiring a first employee, write down what culture your company want. &lt;strong&gt;Hire carefully&lt;/strong&gt; and get the best people.&lt;/li&gt;
+  &lt;li&gt;Mediocre engineers do not build great companies and they can kill a startup. Hiring a new employee is betting your company’s future.&lt;/li&gt;
+  &lt;li&gt;Build at least 100 employees with personal &lt;strong&gt;referals&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;What to consider
+    &lt;ol&gt;
+      &lt;li&gt;Are the smart?&lt;/li&gt;
+      &lt;li&gt;Do they get things done?&lt;/li&gt;
+      &lt;li&gt;Do i want to spend a lot of time around them?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Also
+    &lt;ol&gt;
+      &lt;li&gt;Good communication skills&lt;/li&gt;
+      &lt;li&gt;Risk taking (Mckinsey between startup? probably not work out)&lt;/li&gt;
+      &lt;li&gt;Manically determined(workaholic)&lt;/li&gt;
+      &lt;li&gt;Pass the animal test(describe the employee is good at)&lt;/li&gt;
+      &lt;li&gt;Would feel comfortable reporting to them?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Do some project together before hiring.&lt;/li&gt;
+  &lt;li&gt;Be generous in equity for your employees.&lt;/li&gt;
+  &lt;li&gt;Give credit to your team, &lt;strong&gt;take responsibility by yourself&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Don’t micromanage.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fire fast&lt;/strong&gt; if not working out, company politics, being nagative.&lt;/li&gt;
+  &lt;li&gt;When your cofounder leaves before 4 years, he will get nothing. This is a promise between the cofounders.&lt;/li&gt;
+  &lt;li&gt;Don’t work remotely in early startup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Execution&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Becoming a CEO means your signing to do the execution for years-long time. What you do becomes a culture of the company.&lt;/li&gt;
+  &lt;li&gt;The CEO has five jobs.
+    &lt;ol&gt;
+      &lt;li&gt;Set the vision&lt;/li&gt;
+      &lt;li&gt;Raise money&lt;/li&gt;
+      &lt;li&gt;Evangelize&lt;/li&gt;
+      &lt;li&gt;Hire and manage&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Make sure the entire company executes&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Execution = &lt;strong&gt;What to do?&lt;/strong&gt; + &lt;strong&gt;Can you get it done?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Can you get it done? = Focus + Intensity&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Focus&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;What are you spending time and money on?&lt;/li&gt;
+      &lt;li&gt;What are the two or three most important things?
+        &lt;ul&gt;
+          &lt;li&gt;Most startups are not focused enough&lt;/li&gt;
+          &lt;li&gt;Startup is zero or one. If you work really hard in fields that people don’t care so much, nobody cares.&lt;/li&gt;
+          &lt;li&gt;Set overarching goals and repeat them. KPI&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Intensity&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Quick&lt;/li&gt;
+      &lt;li&gt;Do whatever it takes&lt;/li&gt;
+      &lt;li&gt;Show up(get on plane in marginal situations)&lt;/li&gt;
+      &lt;li&gt;Don’t give up&lt;/li&gt;
+      &lt;li&gt;Be courageous
+        &lt;ul&gt;
+          &lt;li&gt;Relentless operating rhythm(Facebook : &lt;strong&gt;move fast and break things&lt;/strong&gt;)&lt;/li&gt;
+          &lt;li&gt;Obsession with execution quality&lt;/li&gt;
+          &lt;li&gt;Bias towards action. Great founders sticks to small things, but move quickly and get things done quickly. &lt;strong&gt;Every time you talk to them, they’ve gotten new things done.&lt;/strong&gt; For this, you need to break it down into smaller projects.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Always keep momentum. Keep growing&lt;/strong&gt;. Vision is no use before winning. Before that, focus on your product and win in the market. Sales fix everything.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;The best way to keep momentum is to set an operating rhythm.
+      &lt;ul&gt;
+        &lt;li&gt;Shipping product&lt;/li&gt;
+        &lt;li&gt;Launching new features&lt;/li&gt;
+        &lt;li&gt;Reviewing/reporting metrics and milestones&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 12 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/how%20to%20start%20a%20startup/Team-and-execution-(-sam-altman-)/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/how%20to%20start%20a%20startup/Team-and-execution-(-sam-altman-)/</guid>
+        
+        
+        <category>how to start a startup</category>
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - How to start a startup( sam altman )</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;How to start a startup?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -28,7 +133,7 @@
 &lt;ul&gt;
   &lt;li&gt;Ideas should be &lt;strong&gt;Mission-driven&lt;/strong&gt;. Then you will be able to persuade other people ( your team and investors )&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Start in a small market&lt;/strong&gt;, and expand quickly.&lt;/li&gt;
-  &lt;li&gt;Consider the &lt;strong&gt;future size of the market&lt;/strong&gt;, not only the current size of the market. You can change everything in a startup but market. What good for being a student is that you can anticipate which market will grow really fast.&lt;/li&gt;
+  &lt;li&gt;Consider the &lt;strong&gt;future size of the market&lt;/strong&gt;, not only the current size of the market. You can change everything in a startup but market. What good for being a student is that you can anticipate which market will grow really fast, because what you and your friends use will become a future. (metaverse??)&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Why now&lt;/strong&gt; this idea, this particular time, this particular startup?&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Talk to your customers&lt;/strong&gt; for the first version.&lt;/li&gt;
   &lt;li&gt;You should describe your service in &lt;strong&gt;one sentence&lt;/strong&gt;.&lt;/li&gt;
@@ -50,9 +155,9 @@
 &lt;hr /&gt;
 &lt;p&gt;If you don’t achieve above, &lt;strong&gt;ANYTHING&lt;/strong&gt; matters. So, in your early stage, just keep working on great idea, and great product.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 12 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/how%20to%20start%20a%20startup/How-to-start-a-startup/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/how%20to%20start%20a%20startup/How-to-start-a-startup/</guid>
+        <pubDate>Tue, 11 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/how%20to%20start%20a%20startup/How-to-start-a-startup(-sam-altman-)/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/how%20to%20start%20a%20startup/How-to-start-a-startup(-sam-altman-)/</guid>
         
         
         <category>how to start a startup</category>
@@ -821,14 +926,22 @@ This inefficiency is a result of trade-off with decentralization, but in some le
     
       <item>
         <title>ppumang's dev blog - Thoughts</title>
-        <description>&lt;p&gt;2022-10-12&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;개소리들&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2022-10-12&lt;/p&gt;
 
 &lt;p&gt;이윤은 남들이 가지지 못했지만 나는 많이 가진 것을 팔 때 생긴다.&lt;br /&gt;
 지금 학생인 내가 많이 가질 수 있는 건 크롤링을 통한 데이터. 그것을 분석하여 얻은 정보를 활용하는 것이 지금 할 수 있는 일인 것 같다.&lt;/p&gt;
 
-&lt;p&gt;지분에 너무 신경쓰지 말자. 빈털털이가 되어도 큰 일을 이룰 수 있는 능력이 있다면 언제든 자산은 따라오게 돼있다. 자산보다는 그 자산을 얻을 수 있는 능력에 집중하자.&lt;/p&gt;
+&lt;p&gt;지분에 너무 신경쓰지 말자. 빈털털이가 되어도 큰 일을 이룰 수 있는 능력이 있다면 언제든 자산은 따라오게 돼있다. 자산보다는 그 자산을 얻을 수 있는 능력에 집중하자. Momentum!&lt;/p&gt;
 
 &lt;p&gt;프로덕트를 만들 때 잠재적 이용자의 페르소나를 한정 시켜라. 그리고 그 몇명을 사용자를 완전히 만족시킬 수 있는 제품을 만들어라.&lt;/p&gt;
+
+&lt;p&gt;2022-10-13&lt;/p&gt;
+
+&lt;p&gt;학생의 좋은 점은 growing market을 발견할 수 있다는 것. 주변에서 학생들이 새로 받아들이는 서비스들이 미래에 dominant market이 될 것. 주변에서 어떤 서비스들이 새로 사용되는 지 관찰해라. Metaverse!?&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Oct 1000 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/etc/thoughts/</link>
