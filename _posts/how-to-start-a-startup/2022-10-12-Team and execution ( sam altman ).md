@@ -12,14 +12,14 @@ category: "how to start a startup"
 - Mediocre engineers do not build great companies and they can kill a startup. Hiring a new employee is betting your company's future.
 - Build at least 100 employees with personal **referals**.
 - What to consider
-1. Are the smart?
+1. Are they smart?
 2. Do they get things done?
-3. Do i want to spend a lot of time around them?
+3. Do I want to spend a lot of time around them?
 - Also
 1. Good communication skills
 2. Risk taking (Mckinsey between startup? probably not work out)
 3. Manically determined(workaholic)
-4. Pass the animal test(describe the employee is good at)
+4. Pass the animal test(describe what the employee is good at)
 5. Would feel comfortable reporting to them?
 - Do some project together before hiring.
 - Be generous in equity for your employees.
