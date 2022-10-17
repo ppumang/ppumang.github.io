@@ -5,9 +5,183 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Oct 2022 17:03:01 +0900</pubDate>
-    <lastBuildDate>Thu, 13 Oct 2022 17:03:01 +0900</lastBuildDate>
+    <pubDate>Mon, 17 Oct 2022 23:44:23 +0900</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2022 23:44:23 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ppumang's dev blog - How will ethereum change after pos?</title>
+        <description>
+</description>
+        <pubDate>Mon, 17 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/How-will-Ethereum-change-after-POS/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/How-will-Ethereum-change-after-POS/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - Blockchain projects 2022</title>
+        <description>&lt;p&gt;&lt;strong&gt;Blockchain projects&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://ethereum.org&quot; title=&quot;eth link&quot;&gt;Ethereum&lt;/a&gt;&lt;/strong&gt; - decentralized program&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.corda.net/&quot;&gt;Corda&lt;/a&gt;&lt;/strong&gt; - distributed ledger(DLT)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.hyperledger.org&quot;&gt;Hyperledger(Fabric)&lt;/a&gt;&lt;/strong&gt; - open source project from linux to advance cross-industry collaborations by developing blockchains and distributed ledgers(DLT), particularily focusing on improving performance and reliability. Also incubates codebases and other technologies - OpenBlockchain, Sawtooth.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://nethermind.io/&quot;&gt;Nethermind&lt;/a&gt;&lt;/strong&gt; - Ethereum solutions for developers and enterprises&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.fireblocks.com/&quot;&gt;Fireblocks&lt;/a&gt;&lt;/strong&gt; - Blockchain security solutions for institutions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://sorare.com/&quot;&gt;Sorare&lt;/a&gt;&lt;/strong&gt; - Blockchain-powered soccer playing game. Also is a marketplace for player cards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.moonpay.com/&quot;&gt;Moonpay&lt;/a&gt;&lt;/strong&gt; - On-ramp and off-ramp crypto-fiat currency exchange (on-ramp = crypto -&amp;gt; fiat, and off-ramp is opposite)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://apeboard.finance/dashboard&quot;&gt;Ape board&lt;/a&gt;&lt;/strong&gt; - Aggregates users’s defi portfolio and shows them in a single dashboard. It can track portfolios on addresses across 42 blockchains&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.belfricsgroup.com/&quot;&gt;Belfrics group&lt;/a&gt;&lt;/strong&gt; - cryptocurrency exchange platform that uses blockchain to offer KYC(Know Your Customer) verification to its users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://pastel.network&quot;&gt;Pastel Network&lt;/a&gt;&lt;/strong&gt; - NFT focused blockchain&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://zerion.io/&quot;&gt;Zerion&lt;/a&gt;&lt;/strong&gt; - Crypto wallet for NFT &amp;amp; Defi portfolio tracker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.buenbit.com/&quot;&gt;Buenbit&lt;/a&gt;&lt;/strong&gt; - cryptocurrency trading platform specifically targeting the Latin American market&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://fumbi.network/sk/&quot;&gt;Fumbi&lt;/a&gt;&lt;/strong&gt; - cryptocurrency trading platform&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://nayms.com/&quot;&gt;Nayms&lt;/a&gt;&lt;/strong&gt; -  Insurtech&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://blockdaemon.com/&quot;&gt;Blockdaemon&lt;/a&gt;&lt;/strong&gt; - node management tool&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://solrise.finance/&quot;&gt;Solrise Finance&lt;/a&gt;&lt;/strong&gt; - decentralized fund management and investment protocol on Solana&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://bottlepay.com/&quot;&gt;Bottlepay&lt;/a&gt;&lt;/strong&gt; - Send and receive payments. Powered by Lightcoin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://openocean.finance/&quot;&gt;OpenOcean&lt;/a&gt;&lt;/strong&gt; - aggregates price information of multiple decentralized exchanges and compares them to prices offered by centralized exchanges&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://synapse.network/&quot;&gt;Synapse Network&lt;/a&gt;&lt;/strong&gt; - cross-chain investment ecosystem. It opens the way for small investors to invest in promising startups in their earliest development phases&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.bitsika.com/&quot;&gt;bitsika&lt;/a&gt;&lt;/strong&gt; - social payment app that allows you to perform financial transactions, including sending and receiving money, intra-African remittances, crypto, virtual cards, and bills&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mercadobitcoin.com.br/&quot;&gt;Mercado bitcoin&lt;/a&gt;&lt;/strong&gt; -  trade multi-category crypto-assets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.texture.capital/&quot;&gt;Texture capital&lt;/a&gt;&lt;/strong&gt; - help companies raise capital and connect investors with unique opportunities&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.telco.in/&quot;&gt;Telcoin&lt;/a&gt;&lt;/strong&gt; - Ethereum-secured platform that makes it possible to send money instantly across the globe&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 17 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/etc/blockchain-projects-2022/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/etc/blockchain-projects-2022/</guid>
+        
+        
+        <category>etc</category>
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - Building product, talking to users, and growing(adora cheung)</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;building product, talking to users, and growing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You need a long time straight for startup&lt;/li&gt;
+  &lt;li&gt;problem should be described in a sentence.
+    &lt;ol&gt;
+      &lt;li&gt;what is it?&lt;/li&gt;
+      &lt;li&gt;how does it relate to you?&lt;/li&gt;
+      &lt;li&gt;verify others have it&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 13 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/how%20to%20start%20a%20startup/Building-product,-talking-to-users,-and-growing(adora-cheung)/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/how%20to%20start%20a%20startup/Building-product,-talking-to-users,-and-growing(adora-cheung)/</guid>
+        
+        
+        <category>how to start a startup</category>
+        
+      </item>
+    
+      <item>
+        <title>ppumang's dev blog - Before startup (paul graham)</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Before startup&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In your college life, there are a lot more thing you can do besides startup. Like traveling around the world with little money, with your backpack. Do you really have to start a startup right now??&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The one thing that matters is a good product.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start from a side project.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Learn a lot before starting a startup&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 13 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/how%20to%20start%20a%20startup/Before-startup-(paul-graham)/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/how%20to%20start%20a%20startup/Before-startup-(paul-graham)/</guid>
+        
+        
+        <category>how to start a startup</category>
+        
+      </item>
     
       <item>
         <title>ppumang's dev blog - Team and execution ( sam altman )</title>
@@ -955,6 +1129,12 @@ This inefficiency is a result of trade-off with decentralization, but in some le
 &lt;p&gt;&lt;strong&gt;개념의 분할&lt;/strong&gt; &lt;br /&gt;
 경영이란 것도 결국은 좋은 제품을 만들겠다는 목적에서 나온 행위이다. 그 목적만 달성한다면 어떤 형태의 경영도 좋은 경영이 될 수 있다. 일반적으로 ‘경영’ 이라고 했을 때, 마치 학교 과목에서 배우듯 경영자가 가져야 할 특성들을 생각한다. 하지만 이 지식 중 많은 부분은 쓸모 없다. 목적 지향적인 생각을 갖는다면 쓸데없는 지식들을 도려낼 수 있으며, 그 개념을 분할할 수 있다. &lt;br /&gt;
 이는 경영 뿐 아니라 모든 개념에 적용되는 것 같다. 예를 들어, 초등 중등 고등 대학을 나오는 것은 교육의 본질이 아니고, 학습이라는 행위에 그 본질이 있다. 학습 이라는 본질에 집중한다면 기존 사고의 틀에서 벗어나서 교육에 있어서 새로운 혁신을 가져올 수 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;2022-10-14&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;크게, 넓게, 멀리 보자&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
