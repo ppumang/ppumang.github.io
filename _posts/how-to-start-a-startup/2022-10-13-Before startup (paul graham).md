@@ -1,9 +1,8 @@
 ---
-category : how to start a startup
+category: how to start a startup
 ---
 
 > Before startup
-
 
 - In your college life, there are a lot more thing you can do besides startup. Like traveling around the world with little money, with your backpack. Do you really have to start a startup right now??
 
@@ -12,4 +11,3 @@ category : how to start a startup
 - Start from a side project.
 
 - Learn a lot before starting a startup
-

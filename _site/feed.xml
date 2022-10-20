@@ -5,22 +5,9 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Oct 2022 09:47:29 +0900</pubDate>
-    <lastBuildDate>Tue, 18 Oct 2022 09:47:29 +0900</lastBuildDate>
+    <pubDate>Thu, 20 Oct 2022 19:18:51 +0900</pubDate>
+    <lastBuildDate>Thu, 20 Oct 2022 19:18:51 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
-    
-      <item>
-        <title>ppumang's dev blog - How will ethereum change after pos?</title>
-        <description>
-</description>
-        <pubDate>Mon, 17 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/ethereum/How-will-Ethereum-change-after-POS/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/ethereum/How-will-Ethereum-change-after-POS/</guid>
-        
-        
-        <category>ethereum</category>
-        
-      </item>
     
       <item>
         <title>ppumang's dev blog - Blockchain projects 2022</title>
@@ -129,32 +116,6 @@
       </item>
     
       <item>
-        <title>ppumang's dev blog - Building product, talking to users, and growing(adora cheung)</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;building product, talking to users, and growing&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You need a long time straight for startup&lt;/li&gt;
-  &lt;li&gt;problem should be described in a sentence.
-    &lt;ol&gt;
-      &lt;li&gt;what is it?&lt;/li&gt;
-      &lt;li&gt;how does it relate to you?&lt;/li&gt;
-      &lt;li&gt;verify others have it&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 13 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/how%20to%20start%20a%20startup/Building-product,-talking-to-users,-and-growing(adora-cheung)/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/how%20to%20start%20a%20startup/Building-product,-talking-to-users,-and-growing(adora-cheung)/</guid>
-        
-        
-        <category>how to start a startup</category>
-        
-      </item>
-    
-      <item>
         <title>ppumang's dev blog - Before startup (paul graham)</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;Before startup&lt;/p&gt;
@@ -174,7 +135,6 @@
     &lt;p&gt;Learn a lot before starting a startup&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Thu, 13 Oct 2022 00:00:00 +0900</pubDate>
         <link>https://ppumang.github.io/how%20to%20start%20a%20startup/Before-startup-(paul-graham)/</link>
@@ -192,6 +152,7 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;3. Team&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Choosing a cofounder randomly is really really bad.&lt;/li&gt;
   &lt;li&gt;Almost every successful companies are built by cofounders.&lt;/li&gt;
@@ -200,22 +161,28 @@
   &lt;li&gt;Before hiring a first employee, write down what culture your company want. &lt;strong&gt;Hire carefully&lt;/strong&gt; and get the best people.&lt;/li&gt;
   &lt;li&gt;Mediocre engineers do not build great companies and they can kill a startup. Hiring a new employee is betting your company’s future.&lt;/li&gt;
   &lt;li&gt;Build at least 100 employees with personal &lt;strong&gt;referals&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;What to consider
-    &lt;ol&gt;
-      &lt;li&gt;Are they smart?&lt;/li&gt;
-      &lt;li&gt;Do they get things done?&lt;/li&gt;
-      &lt;li&gt;Do I want to spend a lot of time around them?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Also
-    &lt;ol&gt;
-      &lt;li&gt;Good communication skills&lt;/li&gt;
-      &lt;li&gt;Risk taking (Mckinsey between startup? probably not work out)&lt;/li&gt;
-      &lt;li&gt;Manically determined(workaholic)&lt;/li&gt;
-      &lt;li&gt;Pass the animal test(describe what the employee is good at)&lt;/li&gt;
-      &lt;li&gt;Would feel comfortable reporting to them?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+  &lt;li&gt;What to consider&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Are they smart?&lt;/li&gt;
+  &lt;li&gt;Do they get things done?&lt;/li&gt;
+  &lt;li&gt;Do I want to spend a lot of time around them?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Also&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Good communication skills&lt;/li&gt;
+  &lt;li&gt;Risk taking (Mckinsey between startup? probably not work out)&lt;/li&gt;
+  &lt;li&gt;Manically determined(workaholic)&lt;/li&gt;
+  &lt;li&gt;Pass the animal test(describe what the employee is good at)&lt;/li&gt;
+  &lt;li&gt;Would feel comfortable reporting to them?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
   &lt;li&gt;Do some project together before hiring.&lt;/li&gt;
   &lt;li&gt;Be generous in equity for your employees.&lt;/li&gt;
   &lt;li&gt;Give credit to your team, &lt;strong&gt;take responsibility by yourself&lt;/strong&gt;.&lt;/li&gt;
@@ -226,17 +193,21 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;4. Execution&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Becoming a CEO means your signing to do the execution for years-long time. What you do becomes a culture of the company.&lt;/li&gt;
-  &lt;li&gt;The CEO has five jobs.
-    &lt;ol&gt;
-      &lt;li&gt;Set the vision&lt;/li&gt;
-      &lt;li&gt;Raise money&lt;/li&gt;
-      &lt;li&gt;Evangelize&lt;/li&gt;
-      &lt;li&gt;Hire and manage&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Make sure the entire company executes&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+  &lt;li&gt;The CEO has five jobs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Set the vision&lt;/li&gt;
+  &lt;li&gt;Raise money&lt;/li&gt;
+  &lt;li&gt;Evangelize&lt;/li&gt;
+  &lt;li&gt;Hire and manage&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make sure the entire company executes&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
   &lt;li&gt;Execution = &lt;strong&gt;What to do?&lt;/strong&gt; + &lt;strong&gt;Can you get it done?&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Can you get it done? = Focus + Intensity&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Focus&lt;/strong&gt;
@@ -1110,9 +1081,9 @@ This inefficiency is a result of trade-off with decentralization, but in some le
 &lt;p&gt;&lt;em&gt;2022-10-12&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;이윤은 남들이 가지지 못했지만 나는 많이 가진 것을 팔 때 생긴다.&lt;br /&gt;
-지금 학생인 내가 많이 가질 수 있는 건 크롤링을 통한 데이터. 그것을 분석하여 얻은 정보를 활용하는 것이 지금 할 수 있는 일인 것 같다.&lt;/p&gt;
+지금 학생인 내가 많이 가질 수 있는 건 크롤링을 통한 데이터. 그것을 분석하여 얻은 정보를 활용하는 것 같다.&lt;/p&gt;
 
-&lt;p&gt;지분에 너무 신경쓰지 말자. 빈털털이가 되어도 큰 일을 이룰 수 있는 능력이 있다면 언제든 자산은 따라오게 돼있다. 자산보다는 그 자산을 얻을 수 있는 능력에 집중하자. Momentum!&lt;/p&gt;
+&lt;p&gt;지분에 너무 신경쓰지 말자. 빈털털이가 되어도 큰 일을 이룰 수 있는 능력이 있다면 언제든 자산은 따라오게 돼있다. 자산보다는 그 자산을 얻을 수 있는 능력에 집중하자.&lt;/p&gt;
 
 &lt;p&gt;프로덕트를 만들 때 잠재적 이용자의 페르소나를 한정 시켜라. 그리고 그 몇명을 사용자를 완전히 만족시킬 수 있는 제품을 만들어라.&lt;/p&gt;
 
@@ -1122,9 +1093,7 @@ This inefficiency is a result of trade-off with decentralization, but in some le
 
 &lt;p&gt;학생의 좋은 점은 growing market을 발견할 수 있다는 것. 주변에서 학생들이 새로 받아들이는 서비스들이 미래에 dominant market이 될 것. 주변에서 어떤 서비스들이 새로 사용되는 지 관찰해라. Metaverse!?&lt;/p&gt;
 
-&lt;p&gt;타일러가 광고에서 “리얼클래스를 수강할 지 말 지 고민하고 계신다면, 고민하실 필요가 없어요!” 라고 말하는 것을 봤다. 타일러는 미디어에서 항상 Political corectness를 지지하고, 고결하고 도덕적인, 신뢰감 있고 스마트한 이미지를 갖고 있었는데, 광고에서 저런 말도 안되는 말을 하고 있다. 신뢰감 있는 이미지를 가진 사람은 그냥 더 신뢰감 있는 사기를 칠 수 있는 위치에 있는 건가?&lt;/p&gt;
-
-&lt;p&gt;어떤 문제의 정답도 알려주는 기계가 CEO를 한다면 가장 믿음직스럽지 않을까? 좋은 리더쉽은 많은 사람들을 같은 방향으로 행동하게 한다. 그리고 그 리더쉽은 압도적인 지식에서 나온다.&lt;/p&gt;
+&lt;p&gt;어떤 문제의 정답도 알려주는 기계가 CEO를 한다면 가장 믿음직스럽지 않을까? 좋은 리더쉽은 많은 사람들을 같은 방향으로 행동하게 한다. 그리고 그 리더쉽은 압도적인 지식에서 나오는 것 같다.&lt;/p&gt;
 
 &lt;p&gt;공부를 한다는 건 서로 다른 개념들 간의 차이점을 알아가는 것 같다. 교과서를 처음 볼 때는 수많은 개념들과 정리들에 압도돼서 서로 뭐가 다른 건지, 무엇을 위해 사용하는 개념들인지 알 수 없다. 하지만 그 차이점을 명확히 알게 됐을 때 그 과목을 명확히 이해했다는 생각이 드는 것 같다.&lt;/p&gt;
 
@@ -1136,7 +1105,7 @@ This inefficiency is a result of trade-off with decentralization, but in some le
 
 &lt;p&gt;&lt;em&gt;2022-10-14&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;크게, 넓게, 멀리 보자&lt;/p&gt;
+&lt;p&gt;크게, 넓게, 길게 보자&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
