@@ -1,0 +1,37 @@
+---
+category: defi
+---
+
+> **Yield farming is insvesting your crypto in place where you can get the highest return**
+
+Mostly, it's about lending and borrowing.  
+These are 4 types of yield farming
+
+> Liquidity Providers
+
+- Provide liquidity to liquidity pool, and receive transaction fees based on how much portion of liquidity you provided.
+
+> Borrowing and Lending
+
+- Lending: Platforms provide high rewards(> 30% APR) for lending tokens. ex) Compound, AAVE
+- Borrowing: Imagine you have some ETH and you don't want to cash out because you expect ETH price to go up. You can borrow DAI with your ETH as a collateral, do whatever you want with it, and return it to the platform(with a little amount of fee). Hopefully, your ETH price will be higher, and you also leveraged DAI for other uses.
+
+> Leveraged Lending
+
+- Lend DAI from AAVE with BAT as a collateral(suppose, 30% APR by just doing this), exchange DAI with BAT in DEX, and reinvest it to AAVE, and so on.
+  By doing this, you can leverage huge amount of BAT.
+- This also involve risk. If price of BAT falls, the platform will automatically sell your positions(liquidate)
+
+> Staking
+
+- Staking coins: Buy coins, stake them, and earn more free coins.
+- Staking LP Tokens: LP Tokens are type of token you get when you provide liquidity. You can redeem this token any time you want for the percentage you own in the pool. But platforms want large liquidity pool. So they incentivize you to stake your LP tokens. However, LP tokens are usually deflationary in nature, so there are risks staking LP tokens.
+
+> Holding coins that have redistribution fees
+
+- There are coins that distributes transaction fees to holders.
+
+> Risks of Yield Farming
+
+- Rug pulls
+- Impermanent Loss

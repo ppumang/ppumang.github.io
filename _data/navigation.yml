@@ -20,6 +20,8 @@ sidebar-category:
         url: bitcoin
       - title: ethereum
         url: ethereum
+      - title: defi
+        url: defi
       - title: web
         url: web
       - title: deep learning
