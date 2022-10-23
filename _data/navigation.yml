@@ -38,3 +38,5 @@ sidebar-category:
     children:
       - title: etc
         url: etc
+      - title: investment
+        url: investment
