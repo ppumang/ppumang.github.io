@@ -10,4 +10,3 @@ category: investment
 - Look for novel concepts ( Haven't been tried before? A novel game theoretical concept? New consensus algorithm? )
 - Review code
 - Protocol, Infrastructural layer
-- tezos?

@@ -39,7 +39,7 @@ The purpose of this paper is SoK of AMM-based DEX
 
 1. Rewards
    - Liquidity reward - Receive trading fees
-   - Staking rewardd - Rewards from staking pool shares or other tokens as part of an initial incentive program from a certain token protocol
+   - Staking reward - Rewards from staking pool shares or other tokens as part of an initial incentive program from a certain token protocol
    - Governance right - rights to vote for proposals
    - Security reward - bounty programs, auditing, etc.
 2. Explicit cost

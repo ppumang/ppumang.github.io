@@ -5,8 +5,8 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2022 02:31:43 +0900</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2022 02:31:43 +0900</lastBuildDate>
+    <pubDate>Mon, 24 Oct 2022 10:59:26 +0900</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2022 10:59:26 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -22,7 +22,6 @@
   &lt;li&gt;Look for novel concepts ( Haven’t been tried before? A novel game theoretical concept? New consensus algorithm? )&lt;/li&gt;
   &lt;li&gt;Review code&lt;/li&gt;
   &lt;li&gt;Protocol, Infrastructural layer&lt;/li&gt;
-  &lt;li&gt;tezos?&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 23 Oct 2022 00:00:00 +0900</pubDate>
@@ -101,7 +100,7 @@ The purpose of this paper is SoK of AMM-based DEX&lt;/p&gt;
   &lt;li&gt;Rewards
     &lt;ul&gt;
       &lt;li&gt;Liquidity reward - Receive trading fees&lt;/li&gt;
-      &lt;li&gt;Staking rewardd - Rewards from staking pool shares or other tokens as part of an initial incentive program from a certain token protocol&lt;/li&gt;
+      &lt;li&gt;Staking reward - Rewards from staking pool shares or other tokens as part of an initial incentive program from a certain token protocol&lt;/li&gt;
       &lt;li&gt;Governance right - rights to vote for proposals&lt;/li&gt;
       &lt;li&gt;Security reward - bounty programs, auditing, etc.&lt;/li&gt;
     &lt;/ul&gt;
