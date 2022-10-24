@@ -92,7 +92,7 @@ $$\Omega = collection\ of\ protocol\ hyperparameters$$
     $$r_i':=R_i(x_i;r_i) = r_i + x_i$$  
     $$r_j' = r_j \ \forall j \neq i,o$$
 
-   _b) Comput new reserve quntity of token o_  
+   _b) Compute new reserve quntity of token o_  
     $$r_o' = R_o(x_i, \{r_k\}; \mathcal{C}) \Leftrightarrow Solving\ Z=0$$
 
    _c) Compute swapped quntity_  
