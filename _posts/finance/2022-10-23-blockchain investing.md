@@ -1,5 +1,5 @@
 ---
-category: investment
+category: finance
 ---
 
 > How to invest in blockchain

@@ -5,9 +5,122 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2022 22:30:52 +0900</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2022 22:30:52 +0900</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2022 19:01:13 +0900</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2022 19:01:13 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ppumang's dev blog - Options, futures, and other derivatives   categories</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Chapter 1. Introduction&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Exchange-traded markets&lt;br /&gt;
+Over-the-counter markets&lt;br /&gt;
+Forward contracts&lt;br /&gt;
+Futures contracts&lt;br /&gt;
+Options&lt;br /&gt;
+Types of traders:&lt;br /&gt;
+ &lt;em&gt;Hedgers&lt;/em&gt;&lt;br /&gt;
+ &lt;em&gt;Speculators&lt;/em&gt;&lt;br /&gt;
+ &lt;em&gt;Arbitrageurs&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chapter 2. Mechanics of futures markets&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Specification of a futures contract&lt;br /&gt;
+Convergence of futures price to spot price&lt;br /&gt;
+The operation of margin accounts&lt;br /&gt;
+OTC markets&lt;br /&gt;
+Market quotes&lt;br /&gt;
+Delivery&lt;br /&gt;
+Types of traders and types of orders&lt;br /&gt;
+Regulation&lt;br /&gt;
+Accounting and tax&lt;br /&gt;
+Forward vs futures contracts&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chapter 3. Hedging strategies using futures&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Basic principles&lt;br /&gt;
+Arguments for and against hedging&lt;br /&gt;
+Basis risk&lt;br /&gt;
+Cross hedging&lt;br /&gt;
+Stock index futures&lt;br /&gt;
+Stack and roll&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chapter 4. Interest rates&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Types of rates&lt;br /&gt;
+Measuring interest rates&lt;br /&gt;
+Zero rates&lt;br /&gt;
+Bond pricing&lt;br /&gt;
+Determining Treasury zero rates&lt;br /&gt;
+Forward rates&lt;br /&gt;
+Forward rates agreements&lt;br /&gt;
+Duration&lt;br /&gt;
+Convexity&lt;br /&gt;
+Theories of the term structure of interest rates&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chapter 5. Determination of forward and futures prices&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Investment assets vs consumption assets&lt;br /&gt;
+Short selling&lt;br /&gt;
+Assumptions and notation&lt;br /&gt;
+Forward price for an investment asset&lt;br /&gt;
+Known income&lt;br /&gt;
+Known yield&lt;br /&gt;
+Valuing forward contracts&lt;br /&gt;
+Are forward prices and futures prices equal?&lt;br /&gt;
+Futures prices of stock indices&lt;br /&gt;
+Forward and futures contracts on currencies&lt;br /&gt;
+Futures on commodities&lt;br /&gt;
+The cost of carry&lt;br /&gt;
+Delivery options&lt;br /&gt;
+Futures prices and expected future spot prices&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chapter 6. Interest rate futures&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Day count and quotation conventions&lt;br /&gt;
+Treasuty bond futures&lt;br /&gt;
+Eurodollar futures&lt;br /&gt;
+Duration-based hedging strategies using futures&lt;br /&gt;
+Hedging portfolios of assets and liabilities&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chapter 7. Swaps&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mechanics of interest rate swaps&lt;br /&gt;
+Day count issues&lt;br /&gt;
+Confirmations&lt;br /&gt;
+The comparative-advantage argument&lt;br /&gt;
+The nature of swap rates&lt;br /&gt;
+Determining the LIBOR/swap zero rates&lt;br /&gt;
+Valuation of interest rate swaps&lt;br /&gt;
+Term structure effects&lt;br /&gt;
+Fixed-for-fixed currency swaps&lt;br /&gt;
+Valuation of fixed-for-fixed currency swaps&lt;br /&gt;
+Other currency swaps&lt;br /&gt;
+Credit risk&lt;br /&gt;
+Other types of swaps&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/finance/Options,-Futures,-and-other-derivatives-categories/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/finance/Options,-Futures,-and-other-derivatives-categories/</guid>
+        
+        
+        <category>finance</category>
+        
+      </item>
     
       <item>
         <title>ppumang's dev blog - Blockchain investing</title>
@@ -25,11 +138,11 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 23 Oct 2022 00:00:00 +0900</pubDate>
-        <link>https://ppumang.github.io/investment/blockchain-investing/</link>
-        <guid isPermaLink="true">https://ppumang.github.io/investment/blockchain-investing/</guid>
+        <link>https://ppumang.github.io/finance/blockchain-investing/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/finance/blockchain-investing/</guid>
         
         
-        <category>investment</category>
+        <category>finance</category>
         
       </item>
     
