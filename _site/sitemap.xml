@@ -2,6 +2,22 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>https://ppumang.github.io/defi/What-is-Uniswap-v3/</loc>
+      
+        <lastmod>2022-10-29T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
       <loc>https://ppumang.github.io/finance/Options,-Futures,-and-other-derivatives-categories/</loc>
       
         <lastmod>2022-10-25T00:00:00+09:00</lastmod>

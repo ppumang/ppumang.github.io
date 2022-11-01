@@ -26,4 +26,4 @@ category: defi
 - [Whitepaper][balancerlink]
 
 [bondingcurvelink]: ../../../../assets/papers/stableswap.pdf
-[balancerlink]: ../../../../assets/papers/balancer-whitepaper.pdf
+[balancerlink]: ../../../../assets/papers/balancer-wp.pdf

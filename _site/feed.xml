@@ -5,9 +5,32 @@
     <description>blockchain, web, machine learning</description>
     <link>https://ppumang.github.io/</link>
     <atom:link href="https://ppumang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2022 21:29:43 +0900</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2022 21:29:43 +0900</lastBuildDate>
+    <pubDate>Tue, 01 Nov 2022 23:53:30 +0900</pubDate>
+    <lastBuildDate>Tue, 01 Nov 2022 23:53:30 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ppumang's dev blog - What is uniswap v3</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;What distinguishes Uniswap v3 from v2 is “concentrated liquidity”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In Uniswap v2, price was determined by the whole liquidity pool. So, same ratio &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;X1 \times X2 = C&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.7667em;vertical-align:-0.0833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.07847em;&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;×&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.07847em;&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.6833em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; was used in every price interval.&lt;/p&gt;
+
+&lt;p&gt;In Uniswap v3, liquidity providers can provide liquidity in a specific price interval. This means that the AMM algorithm behaves differently in every price sections.&lt;/p&gt;
+
+&lt;p&gt;This gives Uniswap v3 to be able to provide relatively high liquidity compared to the original mechanism.&lt;/p&gt;
+
+&lt;p&gt;For example, in the case of stable coins, price will probably be in $0.99 ~ $1.01. So, people will concentrate their assets in mid price to earn more transaction fees.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Oct 2022 00:00:00 +0900</pubDate>
+        <link>https://ppumang.github.io/defi/What-is-Uniswap-v3/</link>
+        <guid isPermaLink="true">https://ppumang.github.io/defi/What-is-Uniswap-v3/</guid>
+        
+        
+        <category>defi</category>
+        
+      </item>
     
       <item>
         <title>ppumang's dev blog - Options, futures, and other derivatives   categories</title>
@@ -907,7 +930,7 @@ M1001 80h400000v40h-400000z&apos;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;
 &lt;ul&gt;
   &lt;li&gt;Acts as an automatic portfolio manager, liquidity provider, and price sensor&lt;/li&gt;
   &lt;li&gt;At Uniswap you run the risk, at Curve you stake stable coins, at Balancer you can supply liquidity for any crypto assets&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../../../../assets/papers/balancer-whitepaper.pdf&quot;&gt;Whitepaper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../../../../assets/papers/balancer-wp.pdf&quot;&gt;Whitepaper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
