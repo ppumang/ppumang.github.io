@@ -26,6 +26,8 @@ sidebar-category:
         url: web
       - title: deep learning
         url: deep learning
+      - title: cs
+        url: cs
   - title: math
     children:
       - title: linear algebra
